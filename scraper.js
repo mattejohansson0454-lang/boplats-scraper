@@ -53,32 +53,40 @@ async function run() {
 
     let allApartments = [];
 
-    // Loopa igenom sidorna (ca 6 sidor totalt)
+    // Loopa igenom alla sidor
     for (let i = 0; i < 7; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
-        // Hitta alla potentiella behållare för lägenhetskort
-        const candidates = Array.from(document.querySelectorAll('div, mat-card, article, li')).filter(el => {
+        const cards = Array.from(document.querySelectorAll('div, mat-card, article, li')).filter(el => {
           const text = el.innerText || '';
           const lower = text.toLowerCase();
-          return (lower.includes('rok') || lower.includes('rum')) && lower.includes('kr') && text.length < 300;
+          return (lower.includes('rok') || lower.includes('rum')) && lower.includes('kr') && text.length < 400;
         });
 
-        // Filtrera ut så vi bara tar de innersta elementen (förhindrar att föräldraelement också matchas)
-        const leafCandidates = candidates.filter(el => {
-          return !candidates.some(other => other !== el && el.contains(other));
-        });
+        // Filtrera till de innersta elementen för att undvika dubbletter
+        const leafCards = cards.filter(el => !cards.some(other => other !== el && el.contains(other)));
 
-        leafCandidates.forEach(el => {
+        leafCards.forEach(el => {
           const text = el.innerText.trim();
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+          
+          // Hitta bild i eller nära kortet
+          const imgEl = el.querySelector('img') || el.closest('div, mat-card, article, li')?.querySelector('img');
+          const imageUrl = imgEl ? (imgEl.src || imgEl.getAttribute('data-src')) : null;
+
+          // Hitta specifik länk om den finns
+          const linkEl = el.querySelector('a') || el.closest('a');
+          const itemUrl = linkEl ? linkEl.href : window.location.href;
+
           if (lines.length > 0) {
             results.push({
               address: lines[0],
-              description: lines.slice(0, 4).join(' | '),
-              boplatsUrl: window.location.href
+              description: lines.slice(1, 4).join(' | '),
+              rawText: text,
+              imageUrl: imageUrl,
+              boplatsUrl: itemUrl
             });
           }
         });
@@ -87,7 +95,7 @@ async function run() {
 
       allApartments.push(...apartmentsOnPage);
 
-      // Hitta och klicka på nästa-knappen i pagineringen
+      // Paginering: Nästa-knapp
       const clickedNext = await page.evaluate(() => {
         const buttons = Array.from(document.querySelectorAll('button'));
         const nextBtn = buttons.find(b => {
@@ -114,13 +122,8 @@ async function run() {
 
     await browser.close();
 
-    // Rensa eventuella dubbletter baserat på adress + beskrivning
-    const uniqueApartments = Array.from(
-      new Map(allApartments.map(item => [`${item.address}-${item.description}`, item])).values()
-    );
-
-    fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade totalt', uniqueApartments.length, 'unika objekt från alla sidor.');
+    fs.writeFileSync('apartments.json', JSON.stringify(allApartments, null, 2));
+    console.log('Sparade totalt', allApartments.length, 'objekt med bilder och länkar.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
