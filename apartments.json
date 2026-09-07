@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "id": "BOP-1",
+    "address": "Boplats Växjö",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo.html"
+  },
+  {
+    "id": "BOP-2",
+    "address": "Till innehållet",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo.html#page_content"
+  },
+  {
+    "id": "BOP-3",
+    "address": "Boplats Växjö",
+    "rent": "Se länk",
+    "boplatsUrl": "https://boplats.vaxjo.se/"
+  },
+  {
+    "id": "BOP-10",
+    "address": "Att söka lägenhet",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/att-soka-lagenhet.html"
+  },
+  {
+    "id": "BOP-11",
+    "address": "För dig som student",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/for-dig-som-student.html"
+  },
+  {
+    "id": "BOP-12",
+    "address": "För dig som senior",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/for-dig-som-senior.html"
+  },
+  {
+    "id": "BOP-13",
+    "address": "För dig som ungdom",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/for-dig-som-ungdom.html"
+  },
+  {
+    "id": "BOP-14",
+    "address": "Poängfritt",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/poangfritt.html"
+  },
+  {
+    "id": "BOP-15",
+    "address": "Var kan jag bo?",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/var-kan-jag-bo.html"
+  },
+  {
+    "id": "BOP-16",
+    "address": "Om oss",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/om-oss.html"
+  },
+  {
+    "id": "BOP-17",
+    "address": "MENY",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo.html#no-script-menu"
+  },
+  {
+    "id": "BOP-26",
+    "address": "English",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/boplats/en/boplats-vaxjo.html"
+  },
+  {
+    "id": "BOP-37",
+    "address": "e-tjänst\nLänk till annan webbplats.",
+    "rent": "Se länk",
+    "boplatsUrl": "http://e-tjanster.vaxjo.se/boplats"
+  },
+  {
+    "id": "BOP-39",
+    "address": "boplats@vaxjo.se",
+    "rent": "Se länk",
+    "boplatsUrl": "mailto:boplats@vaxjo.se"
+  }
+]
