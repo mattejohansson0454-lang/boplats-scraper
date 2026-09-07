@@ -59,21 +59,27 @@ async function run() {
       
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
-        const elements = document.querySelectorAll('*');
-        
-        elements.forEach((el) => {
-          const text = el.innerText ? el.innerText.trim() : '';
-          const lowerText = text.toLowerCase();
-          
-          if (text && (lowerText.includes('rok') || lowerText.includes('rum')) && lowerText.includes('kr') && text.length < 400) {
-            const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-            if (lines.length > 0) {
-              results.push({
-                address: lines[0],
-                description: lines.slice(0, 4).join(' | '),
-                boplatsUrl: window.location.href
-              });
-            }
+        // Hitta alla potentiella behållare för lägenhetskort
+        const candidates = Array.from(document.querySelectorAll('div, mat-card, article, li')).filter(el => {
+          const text = el.innerText || '';
+          const lower = text.toLowerCase();
+          return (lower.includes('rok') || lower.includes('rum')) && lower.includes('kr') && text.length < 300;
+        });
+
+        // Filtrera ut så vi bara tar de innersta elementen (förhindrar att föräldraelement också matchas)
+        const leafCandidates = candidates.filter(el => {
+          return !candidates.some(other => other !== el && el.contains(other));
+        });
+
+        leafCandidates.forEach(el => {
+          const text = el.innerText.trim();
+          const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+          if (lines.length > 0) {
+            results.push({
+              address: lines[0],
+              description: lines.slice(0, 4).join(' | '),
+              boplatsUrl: window.location.href
+            });
           }
         });
         return results;
@@ -81,7 +87,7 @@ async function run() {
 
       allApartments.push(...apartmentsOnPage);
 
-      // Hitta och klicka på nästa-knappen dynamiskt baserat på aria-label eller ikon
+      // Hitta och klicka på nästa-knappen i pagineringen
       const clickedNext = await page.evaluate(() => {
         const buttons = Array.from(document.querySelectorAll('button'));
         const nextBtn = buttons.find(b => {
@@ -108,9 +114,13 @@ async function run() {
 
     await browser.close();
 
-    // Spara alla skrapade objekt direkt utan filtrering
-    fs.writeFileSync('apartments.json', JSON.stringify(allApartments, null, 2));
-    console.log('Sparade totalt', allApartments.length, 'objekt från alla sidor.');
+    // Rensa eventuella dubbletter baserat på adress + beskrivning
+    const uniqueApartments = Array.from(
+      new Map(allApartments.map(item => [`${item.address}-${item.description}`, item])).values()
+    );
+
+    fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
+    console.log('Sparade totalt', uniqueApartments.length, 'unika objekt från alla sidor.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
