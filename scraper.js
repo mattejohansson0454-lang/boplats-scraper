@@ -57,7 +57,7 @@ async function run() {
     for (let i = 0; i < 7; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
-      // Scrolla för att trigga eventuell lazy loading av bilder innan skrapning
+      // Scrolla lite för att trigga eventuell lazy loading av bilder innan skrapning
       await page.evaluate(async () => {
         window.scrollBy(0, 400);
         await new Promise(resolve => setTimeout(resolve, 800));
@@ -86,40 +86,56 @@ async function run() {
           const imgEl = cardContainer.querySelector('img');
           let imageUrl = null;
           if (imgEl) {
-            imageUrl = imgEl.src || 
-                       imgEl.getAttribute('data-src') || 
-                       imgEl.getAttribute('data-lazy-src') || 
-                       imgEl.srcset;
-            
+            imageUrl = imgEl.src || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-lazy-src') || imgEl.srcset;
             if (imageUrl && imageUrl.includes(',')) {
               imageUrl = imageUrl.split(',')[0].trim().split(' ')[0];
             }
           }
 
-          // Hitta specifik länk om den finns
+          // Hitta specifik länk till objektet
           const linkEl = cardContainer.querySelector('a') || el.closest('a');
           const itemUrl = linkEl ? linkEl.href : window.location.href;
 
-          const cleanLines = lines.filter(l => {
-            const lLower = l.toLowerCase();
-            return !lLower.includes('kr') && 
-                   !lLower.includes('rum') && 
-                   !lLower.includes('rok') && 
-                   !lLower.includes('kvm') && 
-                   !lLower.match(/^\d{4}-\d{2}-\d{2}$/) &&
-                   lLower !== 'nu';
+          // Separera fälten intelligent för att slippa röriga beskrivningar i appen
+          let address = '';
+          let area = '';
+          let rooms = '';
+          let sqm = '';
+          let rent = '';
+          let availableDate = '';
+
+          lines.forEach(l => {
+            const lower = l.toLowerCase();
+            if (/vägen|gatan|gränd|väg|gata/i.test(l) && !address) {
+              address = l;
+            } else if ((lower.includes('rum') || lower.includes('rok')) && !rooms) {
+              rooms = l;
+            } else if ((lower.includes('kr') || /^\d{3,5}\s*(kr)?$/i.test(l)) && !rent && !lower.includes('kvm')) {
+              rent = l;
+            } else if ((/^\d{2,3}([.,]\d)?$/.test(l) || lower.includes('kvm')) && !sqm) {
+              sqm = l.replace(/kvm/gi, '').trim();
+            } else if (/^\d{4}-\d{2}-\d{2}$/.test(l) && !availableDate) {
+              availableDate = l;
+            } else if (!area && (lower.includes('växjö') || (!address && l.length < 25 && !lower.includes('nu')))) {
+              area = l;
+            }
           });
 
-          const address = cleanLines[0] || lines[0] || 'Okänd adress';
-          const area = cleanLines[1] || '';
+          if (!address) {
+            address = lines.find(l => l.length > 3 && !l.toLowerCase().includes('kr') && !l.toLowerCase().includes('rum')) || 'Okänd adress';
+          }
 
           if (lines.length > 0) {
             results.push({
               address: address,
-              area: area,
-              description: lines.slice(1).join(' | '),
+              area: area || 'Växjö',
+              rooms: rooms || 'Okänd storlek',
+              sqm: sqm ? sqm + ' kvm' : '',
+              rent: rent ? (rent.includes('kr') ? rent : rent + ' kr/mån') : '',
+              availableDate: availableDate || 'Snarast',
+              description: lines.join(' | '),
               rawText: text,
-              imageUrl: imageUrl,
+              imageUrl: imageUrl ? (imageUrl.startsWith('http') ? imageUrl : 'https://minasidor.vidingehem.se' + imageUrl) : null,
               boplatsUrl: itemUrl
             });
           }
@@ -157,7 +173,7 @@ async function run() {
     await browser.close();
 
     fs.writeFileSync('apartments.json', JSON.stringify(allApartments, null, 2));
-    console.log('Sparade totalt', allApartments.length, 'objekt med bilder och länkar.');
+    console.log('Sparade totalt', allApartments.length, 'objekt med bilder och strukturerad data.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
