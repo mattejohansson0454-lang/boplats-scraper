@@ -53,15 +53,15 @@ async function run() {
 
     let allApartments = [];
 
-    // Loopa igenom sidorna (max 6 sidor)
-    for (let i = 0; i < 6; i++) {
+    // Loopa igenom sidorna (ca 6 sidor totalt för 122 objekt)
+    for (let i = 0; i < 7; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
         const elements = document.querySelectorAll('*');
         
-        elements.forEach((el, idx) => {
+        elements.forEach((el) => {
           const text = el.innerText ? el.innerText.trim() : '';
           const lowerText = text.toLowerCase();
           
@@ -81,17 +81,10 @@ async function run() {
 
       allApartments.push(...apartmentsOnPage);
 
-      // Hitta och klicka på nästa-knappen dynamiskt
+      // Hitta och klicka på nästa-knappen i pagineringen
       const clickedNext = await page.evaluate(() => {
-        const buttons = Array.from(document.querySelectorAll('button'));
-        const nextBtn = buttons.find(b => {
-          const label = (b.getAttribute('aria-label') || '').toLowerCase();
-          const text = b.innerText.trim();
-          const html = b.innerHTML;
-          return label.includes('next') || label.includes('nästa') || text === '>' || text === '»' || html.includes('chevron_right');
-        });
-
-        if (nextBtn && !nextBtn.disabled && !nextBtn.getAttribute('aria-disabled')?.includes('true')) {
+        const nextBtn = document.querySelector('button.mat-paginator-navigation-next');
+        if (nextBtn && !nextBtn.disabled && !nextBtn.classList.contains('mat-button-disabled') && nextBtn.getAttribute('aria-disabled') !== 'true') {
           nextBtn.click();
           return true;
         }
@@ -99,18 +92,19 @@ async function run() {
       });
 
       if (!clickedNext) {
-        console.log('Ingen nästa-knapp hittades eller så är sista sidan nådd.');
+        console.log('Sista sidan nådd eller ingen nästa-knapp hittades.');
         break;
       }
 
-      await new Promise(resolve => setTimeout(resolve, 5000));
+      await new Promise(resolve => setTimeout(resolve, 4000));
     }
 
     await browser.close();
 
-    // Rensa dubbletter baserat på adress
-    const uniqueApartments = Array.from(new Set(allApartments.map(a => a.address)))
-      .map(addr => allApartments.find(a => a.address === addr));
+    // Rensa dubbletter baserat på både adress OCH beskrivning så att separata lägenheter på samma gata sparas
+    const uniqueApartments = Array.from(
+      new Map(allApartments.map(item => [`${item.address}-${item.description}`, item])).values()
+    );
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
     console.log('Sparade totalt', uniqueApartments.length, 'unika objekt från alla sidor.');
