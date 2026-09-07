@@ -53,7 +53,7 @@ async function run() {
 
     let allApartments = [];
 
-    // Loopa igenom sidorna (ca 6 sidor totalt för 122 objekt)
+    // Loopa igenom sidorna (ca 6 sidor totalt)
     for (let i = 0; i < 7; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
@@ -81,10 +81,17 @@ async function run() {
 
       allApartments.push(...apartmentsOnPage);
 
-      // Hitta och klicka på nästa-knappen i pagineringen
+      // Hitta och klicka på nästa-knappen dynamiskt baserat på aria-label eller ikon
       const clickedNext = await page.evaluate(() => {
-        const nextBtn = document.querySelector('button.mat-paginator-navigation-next');
-        if (nextBtn && !nextBtn.disabled && !nextBtn.classList.contains('mat-button-disabled') && nextBtn.getAttribute('aria-disabled') !== 'true') {
+        const buttons = Array.from(document.querySelectorAll('button'));
+        const nextBtn = buttons.find(b => {
+          const label = (b.getAttribute('aria-label') || '').toLowerCase();
+          const text = b.innerText.trim();
+          const html = b.innerHTML;
+          return label.includes('next') || label.includes('nästa') || text === '>' || text === '»' || html.includes('chevron_right');
+        });
+
+        if (nextBtn && !nextBtn.disabled && !nextBtn.getAttribute('aria-disabled')?.includes('true')) {
           nextBtn.click();
           return true;
         }
@@ -92,7 +99,7 @@ async function run() {
       });
 
       if (!clickedNext) {
-        console.log('Sista sidan nådd eller ingen nästa-knapp hittades.');
+        console.log('Ingen nästa-knapp hittades eller så är sista sidan nådd.');
         break;
       }
 
@@ -101,13 +108,9 @@ async function run() {
 
     await browser.close();
 
-    // Rensa dubbletter baserat på både adress OCH beskrivning så att separata lägenheter på samma gata sparas
-    const uniqueApartments = Array.from(
-      new Map(allApartments.map(item => [`${item.address}-${item.description}`, item])).values()
-    );
-
-    fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade totalt', uniqueApartments.length, 'unika objekt från alla sidor.');
+    // Spara alla skrapade objekt direkt utan filtrering
+    fs.writeFileSync('apartments.json', JSON.stringify(allApartments, null, 2));
+    console.log('Sparade totalt', allApartments.length, 'objekt från alla sidor.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
