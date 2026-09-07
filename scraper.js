@@ -14,29 +14,39 @@ async function run() {
     
     const page = await browser.newPage();
     
-    // Dölj att det är en bot bättre
     await page.evaluateOnNewDocument(() => {
       Object.defineProperty(navigator, 'webdriver', { get: () => false });
     });
 
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
     
-    console.log('Navigerar till Vidingehem...');
-    await page.goto('https://minasidor.vidingehem.se/bostad', {
+    console.log('Navigerar till Vidingehem söksida...');
+    // Testar den direkta söksidan
+    await page.goto('https://minasidor.vidingehem.se/sok-bostad', {
       waitUntil: 'networkidle2',
       timeout: 60000
     });
 
-    // Skriv ut den faktiska URL:en vi landade på (för att se om vi skickades till inlogg)
-    console.log('Faktisk URL efter laddning:', page.url());
+    console.log('Faktisk URL:', page.url());
 
-    // Vänta 15 sekunder
-    await new Promise(resolve => setTimeout(resolve, 15000));
+    // Klicka bort cookie-banderollen om den dyker upp
+    try {
+      await page.waitForSelector('button', { timeout: 5000 });
+      await page.evaluate(() => {
+        const btns = Array.from(document.querySelectorAll('button'));
+        const accept = btns.find(b => b.innerText.includes('Tillåt alla') || b.innerText.includes('Acceptera'));
+        if (accept) accept.click();
+      });
+    } catch (e) {
+      console.log('Ingen cookie-knapp behövde klickas.');
+    }
 
-    // Hämta all text på sidan för att se vad som lästs in
+    // Vänta 10 sekunder på att listan ska läsas in
+    await new Promise(resolve => setTimeout(resolve, 10000));
+
     const pageContent = await page.evaluate(() => document.body.innerText);
-    console.log('Sidans längd (tecken):', pageContent.length);
-    console.log('Utdrag från sidan:', pageContent.substring(0, 400));
+    console.log('Sidans teckenlängd:', pageContent.length);
+    console.log('Utdrag:', pageContent.substring(0, 400));
 
     const apartments = await page.evaluate(() => {
       const results = [];
@@ -53,7 +63,7 @@ async function run() {
               id: `APT-${idx}`,
               address: lines[0],
               description: lines.slice(0, 4).join(' | '),
-              boplatsUrl: 'https://minasidor.vidingehem.se/bostad'
+              boplatsUrl: 'https://minasidor.vidingehem.se/sok-bostad'
             });
           }
         }
