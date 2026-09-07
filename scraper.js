@@ -5,9 +5,9 @@ const fs = require('fs');
 async function run() {
   try {
     const targetUrl = 'https://www.vaxjo.se/boplats/se/boplats-vaxjo.html';
-    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
+    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`;
     
-    const { data } = await axios.get(proxyUrl, { timeout: 15000 });
+    const { data } = await axios.get(proxyUrl, { timeout: 30000 });
     
     const $ = cheerio.load(data);
     const apartments = [];
@@ -30,7 +30,7 @@ async function run() {
       .map(url => apartments.find(a => a.boplatsUrl === url));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'objekt via proxy.');
+    console.log('Sparade', uniqueApartments.length, 'objekt.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
