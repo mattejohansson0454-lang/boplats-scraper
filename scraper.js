@@ -48,16 +48,33 @@ async function run() {
       if (bostadLink) bostadLink.click();
     });
 
-    // Vänta på att första listan laddas ordentligt
+    // Vänta på att listan laddas ordentligt
     await new Promise(resolve => setTimeout(resolve, 6000));
+
+    // Försök ändra antal objekt per sida till 100 om möjligt
+    try {
+      const pageSizeSelect = await page.$('mat-select.mat-paginator-page-size-select');
+      if (pageSizeSelect) {
+        await pageSizeSelect.click();
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        await page.evaluate(() => {
+          const options = Array.from(document.querySelectorAll('mat-option'));
+          const opt100 = options.find(o => o.innerText.includes('100') || o.innerText.includes('50'));
+          if (opt100) opt100.click();
+        });
+        await new Promise(resolve => setTimeout(resolve, 4000));
+        console.log('Ändrade sidstorlek till max.');
+      }
+    } catch (e) {
+      console.log('Kunde inte ändra sidstorlek, kör standardväxling.');
+    }
 
     let allApartments = [];
 
-    // Loopa igenom alla 6 sidor
+    // Loopa igenom sidorna (max 6 sidor för säkerhets skull)
     for (let i = 0; i < 6; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
-      // Extrahera bostäder från aktuell sida
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
         const elements = document.querySelectorAll('*');
@@ -82,32 +99,25 @@ async function run() {
 
       allApartments.push(...apartmentsOnPage);
 
-      // Om det inte är sista sidan, klicka på nästa
-      if (i < 5) {
-        const clickedNext = await page.evaluate(() => {
-          const nextBtn = document.querySelector('button.mat-paginator-navigation-next') ||
-                          document.querySelector('button[aria-label*="Next"]') ||
-                          document.querySelector('button[aria-label*="Nästa"]') ||
-                          Array.from(document.querySelectorAll('button')).find(b => {
-                            const icon = b.querySelector('mat-icon');
-                            return icon && (icon.innerText.includes('chevron_right') || icon.innerText.includes('navigate_next'));
-                          });
-          
-          if (nextBtn && !nextBtn.disabled && !nextBtn.classList.contains('mat-button-disabled')) {
-            nextBtn.click();
-            return true;
-          }
-          return false;
-        });
-
-        if (!clickedNext) {
-          console.log('Ingen fler nästa-knapp hittades.');
-          break;
-        }
-        
-        // Ge sidan lite längre tid att ladda in nästa sidas data
-        await new Promise(resolve => setTimeout(resolve, 6000));
+      // Kolla om nästa-knappen finns och är klickbar
+      const nextBtn = await page.$('button.mat-paginator-navigation-next');
+      if (!nextBtn) {
+        console.log('Ingen nästa-knapp hittades.');
+        break;
       }
+
+      const isDisabled = await page.evaluate(btn => {
+        return btn.disabled || btn.classList.contains('mat-button-disabled') || btn.getAttribute('aria-disabled') === 'true';
+      }, nextBtn);
+
+      if (isDisabled) {
+        console.log('Sista sidan nådd.');
+        break;
+      }
+
+      // Använd Puppeteers riktiga klick
+      await nextBtn.click();
+      await new Promise(resolve => setTimeout(resolve, 5000));
     }
 
     await browser.close();
