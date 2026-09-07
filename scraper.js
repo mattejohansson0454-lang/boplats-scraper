@@ -13,6 +13,7 @@ async function run() {
     });
     
     const page = await browser.newPage();
+    await page.setViewport({ width: 1280, height: 900 });
     
     await page.evaluateOnNewDocument(() => {
       Object.defineProperty(navigator, 'webdriver', { get: () => false });
@@ -26,7 +27,7 @@ async function run() {
       timeout: 60000
     });
 
-    // Klicka bort eventuell cookie-banner först
+    // Klicka bort cookie-banner
     try {
       await page.waitForSelector('button', { timeout: 5000 });
       await page.evaluate(() => {
@@ -38,24 +39,49 @@ async function run() {
       console.log('Ingen cookie-knapp behövde klickas.');
     }
 
-    // Vänta lite och klicka sedan på länken eller knappen som leder till Bostad
     await new Promise(resolve => setTimeout(resolve, 3000));
     
-    console.log('Letar efter och klickar på Bostad-länken...');
+    // Klicka på Bostad i menyn
     await page.evaluate(() => {
       const links = Array.from(document.querySelectorAll('a, button, span'));
       const bostadLink = links.find(el => el.innerText && el.innerText.trim() === 'Bostad');
       if (bostadLink) bostadLink.click();
     });
 
-    // Vänta in att bostadslistan laddas in efter klicket
-    await new Promise(resolve => setTimeout(resolve, 10000));
+    // Vänta på att listan laddas
+    await new Promise(resolve => setTimeout(resolve, 8000));
 
-    console.log('Faktisk URL efter klick:', page.url());
+    // Loopa för att klicka på "Visa fler" eller bläddra tills alla objekt laddats
+    let previousHeight = 0;
+    let attempts = 0;
+    while (attempts < 15) {
+      // Försök klicka på "Visa fler"-knapp om den finns
+      const clickedMore = await page.evaluate(() => {
+        const buttons = Array.from(document.querySelectorAll('button, a'));
+        const loadMoreBtn = buttons.find(b => {
+          const t = b.innerText.toLowerCase();
+          return t.includes('visa fler') || t.includes('ladda fler') || t.includes('visa 20 till');
+        });
+        if (loadMoreBtn && loadMoreBtn.offsetParent !== null) {
+          loadMoreBtn.click();
+          return true;
+        }
+        return false;
+      });
 
-    const pageContent = await page.evaluate(() => document.body.innerText);
-    console.log('Sidans teckenlängd:', pageContent.length);
+      // Scrolla längst ner för att trigga eventuell lazy loading
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      await new Promise(resolve => setTimeout(resolve, 3000));
 
+      const currentHeight = await page.evaluate(() => document.body.scrollHeight);
+      if (currentHeight === previousHeight && !clickedMore) {
+        break; // Inga fler objekt laddades
+      }
+      previousHeight = currentHeight;
+      attempts++;
+    }
+
+    console.log('Hämtar alla inlästa lägenheter...');
     const apartments = await page.evaluate(() => {
       const results = [];
       const elements = document.querySelectorAll('*');
@@ -81,11 +107,12 @@ async function run() {
 
     await browser.close();
 
+    // Rensa dubbletter
     const uniqueApartments = Array.from(new Set(apartments.map(a => a.address)))
       .map(addr => apartments.find(a => a.address === addr));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'objekt.');
+    console.log('Sparade totalt', uniqueApartments.length, 'objekt.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
