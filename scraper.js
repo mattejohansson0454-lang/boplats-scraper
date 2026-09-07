@@ -5,9 +5,14 @@ const fs = require('fs');
 async function run() {
   try {
     const targetUrl = 'https://www.vaxjo.se/boplats/se/boplats-vaxjo.html';
-    const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`;
+    const proxyUrl = `https://api.codetabs.com/v1/proxy?quest=${encodeURIComponent(targetUrl)}`;
     
-    const { data } = await axios.get(proxyUrl, { timeout: 30000 });
+    const { data } = await axios.get(proxyUrl, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+      },
+      timeout: 30000
+    });
     
     const $ = cheerio.load(data);
     const apartments = [];
