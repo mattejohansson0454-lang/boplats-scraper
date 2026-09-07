@@ -1,7 +1,7 @@
 [
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -12,8 +12,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -24,8 +24,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -36,20 +36,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 65 | Kvm | 7249 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n7249\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -60,8 +60,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -72,8 +72,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -84,8 +84,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -96,8 +96,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "4 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "4 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -108,20 +108,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 76 | Kvm | 9581 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n9581\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "4 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "4 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -132,8 +132,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -144,44 +144,44 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 76 | Kvm | 9581 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n9581\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "4 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "4 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "4 rum och kök | Storlek | 92.2 | Kvm | 11274 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "4 rum och kök\nStorlek\n92.2\nKvm\n11274\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 71 | Kvm | 6831 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71\nKvm\n6831\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -192,8 +192,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -204,8 +204,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -216,20 +216,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 63.8 | Kvm | 7348 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n7348\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -240,8 +240,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -252,8 +252,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -264,8 +264,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -276,20 +276,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 63 | Kvm | 6469 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6469\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -300,8 +300,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -312,8 +312,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kokvrå",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kokvrå",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -324,8 +324,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -336,8 +336,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -348,8 +348,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -360,44 +360,44 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 76 | Kvm | 7318 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n7318\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 66 | Kvm | 6532 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n66\nKvm\n6532\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "1 rum och kök | Storlek | 41 | Kvm | 4378 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n41\nKvm\n4378\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -408,20 +408,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 65 | Kvm | 7094 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n7094\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -432,8 +432,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -444,20 +444,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 71 | Kvm | 6830 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71\nKvm\n6830\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -468,20 +468,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 58.1 | Kvm | 8774 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58.1\nKvm\n8774\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -492,8 +492,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -504,8 +504,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -516,8 +516,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -528,8 +528,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -540,8 +540,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -552,20 +552,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 66.6 | Kvm | 6166 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n66.6\nKvm\n6166\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -576,8 +576,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -588,8 +588,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -600,8 +600,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -612,8 +612,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -624,20 +624,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 70 | Kvm | 6785 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n70\nKvm\n6785\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
-    "area": "Växjö",
+    "address": "Okänd adress",
+    "area": "",
     "rooms": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
     "sqm": "",
     "rent": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
@@ -648,8 +648,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -660,8 +660,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -672,44 +672,44 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 76 | Kvm | 7156 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n7156\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 71.7 | Kvm | 9330 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71.7\nKvm\n9330\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 64 | Kvm | 6404 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n64\nKvm\n6404\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -720,8 +720,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -732,20 +732,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 75 | Kvm | 9112 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n75\nKvm\n9112\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
-    "area": "Växjö",
+    "address": "Husen är byggda under åren 1963-64 och hela området totalrenoveras under 2021-2025. Renoveringen innebär att tillgång till grönytor och lekplatser kan vara begränsade under denna period.",
+    "area": "",
     "rooms": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
     "sqm": "",
     "rent": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
@@ -756,8 +756,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -768,8 +768,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
-    "area": "Växjö",
+    "address": "Många av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats.",
+    "area": "",
     "rooms": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
     "sqm": "",
     "rent": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
@@ -780,8 +780,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -792,8 +792,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
-    "area": "Växjö",
+    "address": "Många av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats.",
+    "area": "",
     "rooms": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
     "sqm": "",
     "rent": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
@@ -804,8 +804,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -816,32 +816,32 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 74.8 | Kvm | 10807 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n74.8\nKvm\n10807\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 79.2 | Kvm | 8854 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n8854\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -852,20 +852,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 65 | Kvm | 6256 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n6256\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -876,8 +876,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -888,8 +888,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -900,8 +900,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -912,8 +912,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -924,8 +924,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -936,8 +936,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -948,8 +948,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -960,20 +960,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 64 | Kvm | 6931 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n64\nKvm\n6931\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -984,20 +984,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 61 | Kvm | 5958 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n5958\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
-    "area": "Växjö",
+    "address": "Okänd adress",
+    "area": "",
     "rooms": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
     "sqm": "",
     "rent": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
@@ -1008,20 +1008,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "1 rum och kök | Storlek | 55 | Kvm | 5578 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n55\nKvm\n5578\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1032,32 +1032,32 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 78.5 | Kvm | 11289 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n78.5\nKvm\n11289\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 63.8 | Kvm | 10089 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n10089\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1068,8 +1068,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1080,8 +1080,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1092,20 +1092,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 65 | Kvm | 7236 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n7236\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1116,20 +1116,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 81 | Kvm | 10067 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n81\nKvm\n10067\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
-    "area": "Växjö",
+    "address": "Husen är byggda under åren 1963-64 och hela området totalrenoveras under 2021-2025. Renoveringen innebär att tillgång till grönytor och lekplatser kan vara begränsade under denna period.",
+    "area": "",
     "rooms": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
     "sqm": "",
     "rent": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
@@ -1140,20 +1140,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 63 | Kvm | 6464 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6464\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1164,8 +1164,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1176,20 +1176,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "1 rum och kök | Storlek | 46.1 | Kvm | 5413 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n46.1\nKvm\n5413\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1200,20 +1200,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 61.2 | Kvm | 6154 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61.2\nKvm\n6154\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1224,8 +1224,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1236,8 +1236,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
-    "area": "Växjö",
+    "address": "Många av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats.",
+    "area": "",
     "rooms": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
     "sqm": "",
     "rent": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
@@ -1248,8 +1248,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1260,8 +1260,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1272,8 +1272,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1284,8 +1284,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1296,44 +1296,44 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "1 rum och kokvrå",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kokvrå",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "1 rum och kokvrå | Storlek | 29 | Kvm | 3079 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kokvrå\nStorlek\n29\nKvm\n3079\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "1 rum och kokvrå",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kokvrå",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "1 rum och kokvrå | Storlek | 32 | Kvm | 3382 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kokvrå\nStorlek\n32\nKvm\n3382\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 61 | Kvm | 6172 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n6172\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1344,8 +1344,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1356,8 +1356,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1368,80 +1368,80 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 63 | Kvm | 6495 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6495\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 62 | Kvm | 6209 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6209\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 58.1 | Kvm | 8959 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58.1\nKvm\n8959\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "1 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "1 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "1 rum och kök | Storlek | 40 | Kvm | 4291 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n40\nKvm\n4291\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 58.1 | Kvm | 8600 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58.1\nKvm\n8600\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 73.3 | Kvm | 10617 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1452,8 +1452,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1464,20 +1464,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 51 | Kvm | 5491 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n51\nKvm\n5491\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1488,8 +1488,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1500,8 +1500,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1512,20 +1512,20 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 53 | Kvm | 5971 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n53\nKvm\n5971\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1536,32 +1536,32 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "3 rum och kök | Storlek | 79.2 | Kvm | 9471 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9471\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "area": "Nu",
+    "address": "Storlek",
+    "area": "",
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Snarast",
+    "availableDate": "Nu",
     "description": "2 rum och kök | Storlek | 63 | Kvm | 7274 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n7274\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
@@ -1572,8 +1572,8 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "area": "Växjö",
+    "address": "Storlek",
+    "area": "",
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
