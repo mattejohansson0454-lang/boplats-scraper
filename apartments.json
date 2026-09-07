@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "id": "APT-293",
+    "address": "Torstens väg 10",
+    "description": "Torstens väg 10 | Rottne | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-315",
+    "address": "2 rum och kök",
+    "description": "2 rum och kök | Storlek | 65 | Kvm",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-355",
+    "address": "1 rum och kök",
+    "description": "1 rum och kök | Storlek | 42 | Kvm",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-417",
+    "address": "Gamla Växjövägen 11 A",
+    "description": "Gamla Växjövägen 11 A | Ingelstad | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-479",
+    "address": "3 rum och kök",
+    "description": "3 rum och kök | Storlek | 70.6 | Kvm",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-522",
+    "address": "4 rum och kök",
+    "description": "4 rum och kök | Storlek | 95.7 | Kvm",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-753",
+    "address": "Herrgårdsgatan 13 A",
+    "description": "Herrgårdsgatan 13 A | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-793",
+    "address": "Ejdervägen 51 A",
+    "description": "Ejdervägen 51 A | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-876",
+    "address": "Herrgårdsgatan 7 B",
+    "description": "Herrgårdsgatan 7 B | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-958",
+    "address": "Ejdervägen 23 B",
+    "description": "Ejdervägen 23 B | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-998",
+    "address": "Stjärnviksvägen 12",
+    "description": "Stjärnviksvägen 12 | Tävelsås | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-1082",
+    "address": "Rönnvägen 3 D",
+    "description": "Rönnvägen 3 D | Braås | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-1122",
+    "address": "Rönnvägen 3 C",
+    "description": "Rönnvägen 3 C | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-1247",
+    "address": "Herrgårdsgatan 15 F",
+    "description": "Herrgårdsgatan 15 F | Lammhult | 1 rum och kokvrå | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-1269",
+    "address": "1 rum och kokvrå",
+    "description": "1 rum och kokvrå | Storlek | 40 | Kvm",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "id": "APT-1287",
+    "address": "Ejdervägen 33 B",
+    "description": "Ejdervägen 33 B | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  }
+]
