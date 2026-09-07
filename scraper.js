@@ -18,29 +18,33 @@ async function run() {
     });
 
     const apartments = await page.evaluate(() => {
-      const items = [];
-      document.querySelectorAll('a').forEach((el, index) => {
-        const text = el.innerText.trim();
-        const href = el.href;
-        if (href && (href.includes('boplats') || text.includes('kvm') || text.includes('rum'))) {
-          items.push({
-            id: `BOP-${index}`,
-            address: text || 'Adress saknas',
-            rent: 'Se länk',
-            boplatsUrl: href
-          });
-        }
-      });
-      return items;
+      // Listan med vanliga menylänkar på sidan som vi vill rensa bort
+      const unwanted = [
+        'MENY', 'Om oss', 'Att söka lägenhet', 'För dig som student', 
+        'För dig som senior', 'För dig som ungdom', 'Poängfritt', 
+        'Var kan jag bo?', 'Boplats Växjö', 'Till innehållet', 'English',
+        'Lediga lägenheter', 'Kontakta oss'
+      ];
+      
+      return Array.from(document.querySelectorAll('a'))
+        .map((a, index) => ({
+          id: `BOP-${index}`,
+          address: a.innerText.trim(),
+          rent: 'Se länk',
+          boplatsUrl: a.href
+        }))
+        // Behåll bara länkar som har text och inte finns med i "unwanted"-listan
+        .filter(item => item.address && !unwanted.includes(item.address) && item.address.length > 3);
     });
 
     await browser.close();
 
+    // Ta bort dubbletter baserat på URL
     const uniqueApartments = Array.from(new Set(apartments.map(a => a.boplatsUrl)))
       .map(url => apartments.find(a => a.boplatsUrl === url));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'objekt via Puppeteer.');
+    console.log('Sparade', uniqueApartments.length, 'objekt.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
