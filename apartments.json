@@ -1,889 +1,1016 @@
 [
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.8 | Kvm",
+    "address": "Storlek",
+    "area": "63.8",
+    "description": "Storlek | 63.8 | Kvm | 7510 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n7510\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.8 | Kvm",
+    "address": "Storlek",
+    "area": "63.8",
+    "description": "Storlek | 63.8 | Kvm | 7207 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n7207\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 8870 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n8870\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 65 | Kvm",
+    "address": "Storlek",
+    "area": "65",
+    "description": "Storlek | 65 | Kvm | 7249 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n7249\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 42 | Kvm",
+    "address": "Storlek",
+    "area": "42",
+    "description": "Storlek | 42 | Kvm | 7726 | Kr/mån | 2027-01-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n42\nKvm\n7726\nKr/mån\n2027-01-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 60.2 | Kvm",
+    "address": "Storlek",
+    "area": "60.2",
+    "description": "Storlek | 60.2 | Kvm | 6856 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n60.2\nKvm\n6856\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 45.1 | Kvm",
+    "address": "Storlek",
+    "area": "45.1",
+    "description": "Storlek | 45.1 | Kvm | 4077 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n45.1\nKvm\n4077\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 70.6 | Kvm",
+    "address": "Storlek",
+    "area": "70.6",
+    "description": "Storlek | 70.6 | Kvm | 9247 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n70.6\nKvm\n9247\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "4 rum och kök",
-    "description": "Storlek | 95.7 | Kvm",
+    "address": "Storlek",
+    "area": "95.7",
+    "description": "Storlek | 95.7 | Kvm | 13577 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "4 rum och kök\nStorlek\n95.7\nKvm\n13577\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 9581 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n9581\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "4 rum och kök",
-    "description": "Storlek | 92.2 | Kvm",
+    "address": "Storlek",
+    "area": "92.2",
+    "description": "Storlek | 92.2 | Kvm | 11274 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "4 rum och kök\nStorlek\n92.2\nKvm\n11274\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.8 | Kvm",
+    "address": "Storlek",
+    "area": "63.8",
+    "description": "Storlek | 63.8 | Kvm | 7500 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n7500\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 9581 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n9581\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "4 rum och kök",
-    "description": "Storlek | 92.2 | Kvm",
+    "address": "Storlek",
+    "area": "92.2",
+    "description": "Storlek | 92.2 | Kvm | 11274 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "4 rum och kök\nStorlek\n92.2\nKvm\n11274\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71 | Kvm",
+    "address": "Storlek",
+    "area": "71",
+    "description": "Storlek | 71 | Kvm | 6831 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71\nKvm\n6831\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61 | Kvm",
+    "address": "Storlek",
+    "area": "61",
+    "description": "Storlek | 61 | Kvm | 6276 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n6276\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 9581 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n9581\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 6340 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6340\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.8 | Kvm",
+    "address": "Storlek",
+    "area": "63.8",
+    "description": "Storlek | 63.8 | Kvm | 7348 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n7348\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61 | Kvm",
+    "address": "Storlek",
+    "area": "61",
+    "description": "Storlek | 61 | Kvm | 6034 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n6034\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79 | Kvm",
+    "address": "Storlek",
+    "area": "79",
+    "description": "Storlek | 79 | Kvm | 9115 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79\nKvm\n9115\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 77.4 | Kvm",
+    "address": "Storlek",
+    "area": "77.4",
+    "description": "Storlek | 77.4 | Kvm | 11435 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n77.4\nKvm\n11435\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71 | Kvm",
+    "address": "Storlek",
+    "area": "71",
+    "description": "Storlek | 71 | Kvm | 7212 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71\nKvm\n7212\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63 | Kvm",
+    "address": "Storlek",
+    "area": "63",
+    "description": "Storlek | 63 | Kvm | 6469 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6469\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 9581 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n9581\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 78.5 | Kvm",
+    "address": "Storlek",
+    "area": "78.5",
+    "description": "Storlek | 78.5 | Kvm | 10457 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n78.5\nKvm\n10457\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kokvrå",
-    "description": "Storlek | 40 | Kvm",
+    "address": "Storlek",
+    "area": "40",
+    "description": "Storlek | 40 | Kvm | 3884 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kokvrå\nStorlek\n40\nKvm\n3884\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61 | Kvm",
+    "address": "Storlek",
+    "area": "61",
+    "description": "Storlek | 61 | Kvm | 5771 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n5771\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 53.7 | Kvm",
+    "address": "Storlek",
+    "area": "53.7",
+    "description": "Storlek | 53.7 | Kvm | 9702 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n53.7\nKvm\n9702\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 58 | Kvm",
+    "address": "Storlek",
+    "area": "58",
+    "description": "Storlek | 58 | Kvm | 10150 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58\nKvm\n10150\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 7318 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n7318\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 66 | Kvm",
+    "address": "Storlek",
+    "area": "66",
+    "description": "Storlek | 66 | Kvm | 6532 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n66\nKvm\n6532\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 41 | Kvm",
+    "address": "Storlek",
+    "area": "41",
+    "description": "Storlek | 41 | Kvm | 4378 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n41\nKvm\n4378\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 39.6 | Kvm",
+    "address": "Storlek",
+    "area": "39.6",
+    "description": "Storlek | 39.6 | Kvm | 4467 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n39.6\nKvm\n4467\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 65 | Kvm",
+    "address": "Storlek",
+    "area": "65",
+    "description": "Storlek | 65 | Kvm | 7094 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n7094\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.1 | Kvm",
+    "address": "Storlek",
+    "area": "63.1",
+    "description": "Storlek | 63.1 | Kvm | 9332 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.1\nKvm\n9332\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71.7 | Kvm",
+    "address": "Storlek",
+    "area": "71.7",
+    "description": "Storlek | 71.7 | Kvm | 12449 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71.7\nKvm\n12449\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71 | Kvm",
+    "address": "Storlek",
+    "area": "71",
+    "description": "Storlek | 71 | Kvm | 6830 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71\nKvm\n6830\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 75 | Kvm",
+    "address": "Storlek",
+    "area": "75",
+    "description": "Storlek | 75 | Kvm | 7994 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n75\nKvm\n7994\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 58.1 | Kvm",
+    "address": "Storlek",
+    "area": "58.1",
+    "description": "Storlek | 58.1 | Kvm | 8774 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58.1\nKvm\n8774\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 77.3 | Kvm",
+    "address": "Storlek",
+    "area": "77.3",
+    "description": "Storlek | 77.3 | Kvm | 9340 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n77.3\nKvm\n9340\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 84.8 | Kvm",
+    "address": "Storlek",
+    "area": "84.8",
+    "description": "Storlek | 84.8 | Kvm | 11152 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n84.8\nKvm\n11152\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 49.5 | Kvm",
+    "address": "Storlek",
+    "area": "49.5",
+    "description": "Storlek | 49.5 | Kvm | 8088 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n49.5\nKvm\n8088\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 7084 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n7084\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71.6 | Kvm",
+    "address": "Storlek",
+    "area": "71.6",
+    "description": "Storlek | 71.6 | Kvm | 7058 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71.6\nKvm\n7058\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 82 | Kvm",
+    "address": "Storlek",
+    "area": "82",
+    "description": "Storlek | 82 | Kvm | 8379 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n82\nKvm\n8379\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 66.6 | Kvm",
+    "address": "Storlek",
+    "area": "66.6",
+    "description": "Storlek | 66.6 | Kvm | 6166 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n66.6\nKvm\n6166\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 6406 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6406\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 48 | Kvm",
+    "address": "Storlek",
+    "area": "48",
+    "description": "Storlek | 48 | Kvm | 4792 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n48\nKvm\n4792\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 78.9 | Kvm",
+    "address": "Storlek",
+    "area": "78.9",
+    "description": "Storlek | 78.9 | Kvm | 10852 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n78.9\nKvm\n10852\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61 | Kvm",
+    "address": "Storlek",
+    "area": "61",
+    "description": "Storlek | 61 | Kvm | 5814 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n5814\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9523 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9523\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 70 | Kvm",
+    "address": "Storlek",
+    "area": "70",
+    "description": "Storlek | 70 | Kvm | 6785 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n70\nKvm\n6785\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "area": "",
     "description": "",
     "rawText": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71.7 | Kvm",
+    "address": "Storlek",
+    "area": "71.7",
+    "description": "Storlek | 71.7 | Kvm | 9330 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71.7\nKvm\n9330\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 82.5 | Kvm",
+    "address": "Storlek",
+    "area": "82.5",
+    "description": "Storlek | 82.5 | Kvm | 7732 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n82.5\nKvm\n7732\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 7156 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n7156\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71.7 | Kvm",
+    "address": "Storlek",
+    "area": "71.7",
+    "description": "Storlek | 71.7 | Kvm | 9330 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71.7\nKvm\n9330\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 64 | Kvm",
+    "address": "Storlek",
+    "area": "64",
+    "description": "Storlek | 64 | Kvm | 6404 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n64\nKvm\n6404\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 77.3 | Kvm",
+    "address": "Storlek",
+    "area": "77.3",
+    "description": "Storlek | 77.3 | Kvm | 9120 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n77.3\nKvm\n9120\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63 | Kvm",
+    "address": "Storlek",
+    "area": "63",
+    "description": "Storlek | 63 | Kvm | 6452 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6452\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 75 | Kvm",
+    "address": "Storlek",
+    "area": "75",
+    "description": "Storlek | 75 | Kvm | 9112 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n75\nKvm\n9112\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 82.2 | Kvm",
+    "address": "Storlek",
+    "area": "82.2",
+    "description": "Storlek | 82.2 | Kvm | 8236 | Kr/mån | 2027-01-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n82.2\nKvm\n8236\nKr/mån\n2027-01-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 81.2 | Kvm",
+    "address": "Storlek",
+    "area": "81.2",
+    "description": "Storlek | 81.2 | Kvm | 8064 | Kr/mån | 2027-01-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n81.2\nKvm\n8064\nKr/mån\n2027-01-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.8 | Kvm",
+    "address": "Storlek",
+    "area": "63.8",
+    "description": "Storlek | 63.8 | Kvm | 6989 | Kr/mån | 2027-01-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n6989\nKr/mån\n2027-01-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 74.8 | Kvm",
+    "address": "Storlek",
+    "area": "74.8",
+    "description": "Storlek | 74.8 | Kvm | 10807 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n74.8\nKvm\n10807\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 8854 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n8854\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 38.6 | Kvm",
+    "address": "Storlek",
+    "area": "38.6",
+    "description": "Storlek | 38.6 | Kvm | 3948 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n38.6\nKvm\n3948\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 65 | Kvm",
+    "address": "Storlek",
+    "area": "65",
+    "description": "Storlek | 65 | Kvm | 6256 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n6256\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 65 | Kvm",
+    "address": "Storlek",
+    "area": "65",
+    "description": "Storlek | 65 | Kvm | 6422 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n6422\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 73.4 | Kvm",
+    "address": "Storlek",
+    "area": "73.4",
+    "description": "Storlek | 73.4 | Kvm | 10508 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n73.4\nKvm\n10508\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 48.3 | Kvm",
+    "address": "Storlek",
+    "area": "48.3",
+    "description": "Storlek | 48.3 | Kvm | 4756 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n48.3\nKvm\n4756\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 6481 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6481\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 60.7 | Kvm",
+    "address": "Storlek",
+    "area": "60.7",
+    "description": "Storlek | 60.7 | Kvm | 8040 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n60.7\nKvm\n8040\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 64 | Kvm",
+    "address": "Storlek",
+    "area": "64",
+    "description": "Storlek | 64 | Kvm | 6987 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n64\nKvm\n6987\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 41 | Kvm",
+    "address": "Storlek",
+    "area": "41",
+    "description": "Storlek | 41 | Kvm | 4378 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n41\nKvm\n4378\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 39 | Kvm",
+    "address": "Storlek",
+    "area": "39",
+    "description": "Storlek | 39 | Kvm | 4010 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n39\nKvm\n4010\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 64 | Kvm",
+    "address": "Storlek",
+    "area": "64",
+    "description": "Storlek | 64 | Kvm | 6931 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n64\nKvm\n6931\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76.5 | Kvm",
+    "address": "Storlek",
+    "area": "76.5",
+    "description": "Storlek | 76.5 | Kvm | 8168 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76.5\nKvm\n8168\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61 | Kvm",
+    "address": "Storlek",
+    "area": "61",
+    "description": "Storlek | 61 | Kvm | 5958 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n5958\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "area": "",
     "description": "",
     "rawText": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 55 | Kvm",
+    "address": "Storlek",
+    "area": "55",
+    "description": "Storlek | 55 | Kvm | 5578 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n55\nKvm\n5578\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 6180 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6180\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 78.5 | Kvm",
+    "address": "Storlek",
+    "area": "78.5",
+    "description": "Storlek | 78.5 | Kvm | 11289 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n78.5\nKvm\n11289\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63.8 | Kvm",
+    "address": "Storlek",
+    "area": "63.8",
+    "description": "Storlek | 63.8 | Kvm | 10089 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63.8\nKvm\n10089\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9216 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9216\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71 | Kvm",
+    "address": "Storlek",
+    "area": "71",
+    "description": "Storlek | 71 | Kvm | 7217 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71\nKvm\n7217\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 6209 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6209\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 65 | Kvm",
+    "address": "Storlek",
+    "area": "65",
+    "description": "Storlek | 65 | Kvm | 7236 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n65\nKvm\n7236\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9255 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9255\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 81 | Kvm",
+    "address": "Storlek",
+    "area": "81",
+    "description": "Storlek | 81 | Kvm | 10067 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n81\nKvm\n10067\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63 | Kvm",
+    "address": "Storlek",
+    "area": "63",
+    "description": "Storlek | 63 | Kvm | 6464 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6464\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 73.1 | Kvm",
+    "address": "Storlek",
+    "area": "73.1",
+    "description": "Storlek | 73.1 | Kvm | 10331 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n73.1\nKvm\n10331\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 77 | Kvm",
+    "address": "Storlek",
+    "area": "77",
+    "description": "Storlek | 77 | Kvm | 11322 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n77\nKvm\n11322\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 46.1 | Kvm",
+    "address": "Storlek",
+    "area": "46.1",
+    "description": "Storlek | 46.1 | Kvm | 5413 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n46.1\nKvm\n5413\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 76 | Kvm",
+    "address": "Storlek",
+    "area": "76",
+    "description": "Storlek | 76 | Kvm | 7171 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n76\nKvm\n7171\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61.2 | Kvm",
+    "address": "Storlek",
+    "area": "61.2",
+    "description": "Storlek | 61.2 | Kvm | 6154 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61.2\nKvm\n6154\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 55.7 | Kvm",
+    "address": "Storlek",
+    "area": "55.7",
+    "description": "Storlek | 55.7 | Kvm | 7773 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n55.7\nKvm\n7773\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 82.1 | Kvm",
+    "address": "Storlek",
+    "area": "82.1",
+    "description": "Storlek | 82.1 | Kvm | 8092 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n82.1\nKvm\n8092\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 7016 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n7016\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9474 | Kr/mån | 2027-01-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9474\nKr/mån\n2027-01-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 47.5 | Kvm",
+    "address": "Storlek",
+    "area": "47.5",
+    "description": "Storlek | 47.5 | Kvm | 8153 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n47.5\nKvm\n8153\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 71.7 | Kvm",
+    "address": "Storlek",
+    "area": "71.7",
+    "description": "Storlek | 71.7 | Kvm | 12045 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n71.7\nKvm\n12045\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "1 rum och kokvrå",
-    "description": "Storlek | 29 | Kvm",
+    "address": "Storlek",
+    "area": "29",
+    "description": "Storlek | 29 | Kvm | 3079 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kokvrå\nStorlek\n29\nKvm\n3079\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "1 rum och kokvrå",
-    "description": "Storlek | 32 | Kvm",
+    "address": "Storlek",
+    "area": "32",
+    "description": "Storlek | 32 | Kvm | 3382 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kokvrå\nStorlek\n32\nKvm\n3382\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 61 | Kvm",
+    "address": "Storlek",
+    "area": "61",
+    "description": "Storlek | 61 | Kvm | 6172 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n61\nKvm\n6172\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 69.7 | Kvm",
+    "address": "Storlek",
+    "area": "69.7",
+    "description": "Storlek | 69.7 | Kvm | 8452 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n69.7\nKvm\n8452\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 69 | Kvm",
+    "address": "Storlek",
+    "area": "69",
+    "description": "Storlek | 69 | Kvm | 7196 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n69\nKvm\n7196\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 55 | Kvm",
+    "address": "Storlek",
+    "area": "55",
+    "description": "Storlek | 55 | Kvm | 6438 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n55\nKvm\n6438\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63 | Kvm",
+    "address": "Storlek",
+    "area": "63",
+    "description": "Storlek | 63 | Kvm | 6495 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n6495\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 62 | Kvm",
+    "address": "Storlek",
+    "area": "62",
+    "description": "Storlek | 62 | Kvm | 6209 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n62\nKvm\n6209\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 58.1 | Kvm",
+    "address": "Storlek",
+    "area": "58.1",
+    "description": "Storlek | 58.1 | Kvm | 8959 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58.1\nKvm\n8959\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "1 rum och kök",
-    "description": "Storlek | 40 | Kvm",
+    "address": "Storlek",
+    "area": "40",
+    "description": "Storlek | 40 | Kvm | 4291 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "1 rum och kök\nStorlek\n40\nKvm\n4291\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 58.1 | Kvm",
+    "address": "Storlek",
+    "area": "58.1",
+    "description": "Storlek | 58.1 | Kvm | 8600 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n58.1\nKvm\n8600\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 73.3 | Kvm",
+    "address": "Storlek",
+    "area": "73.3",
+    "description": "Storlek | 73.3 | Kvm | 10617 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9197 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9197\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 82 | Kvm",
+    "address": "Storlek",
+    "area": "82",
+    "description": "Storlek | 82 | Kvm | 8385 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n82\nKvm\n8385\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 51 | Kvm",
+    "address": "Storlek",
+    "area": "51",
+    "description": "Storlek | 51 | Kvm | 5491 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n51\nKvm\n5491\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9437 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9437\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9172 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9172\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 73.3 | Kvm",
+    "address": "Storlek",
+    "area": "73.3",
+    "description": "Storlek | 73.3 | Kvm | 10617 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 53 | Kvm",
+    "address": "Storlek",
+    "area": "53",
+    "description": "Storlek | 53 | Kvm | 5971 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n53\nKvm\n5971\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 60.7 | Kvm",
+    "address": "Storlek",
+    "area": "60.7",
+    "description": "Storlek | 60.7 | Kvm | 6587 | Kr/mån | 2026-11-01 | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n60.7\nKvm\n6587\nKr/mån\n2026-11-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9471 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9471\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "2 rum och kök",
-    "description": "Storlek | 63 | Kvm",
+    "address": "Storlek",
+    "area": "63",
+    "description": "Storlek | 63 | Kvm | 7274 | Kr/mån | Nu | Ledig fr.o.m.",
     "rawText": "2 rum och kök\nStorlek\n63\nKvm\n7274\nKr/mån\nNu\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 79.2 | Kvm",
+    "address": "Storlek",
+    "area": "79.2",
+    "description": "Storlek | 79.2 | Kvm | 9224 | Kr/mån | 2026-10-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n79.2\nKvm\n9224\nKr/mån\n2026-10-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
-    "address": "3 rum och kök",
-    "description": "Storlek | 77.3 | Kvm",
+    "address": "Storlek",
+    "area": "77.3",
+    "description": "Storlek | 77.3 | Kvm | 9241 | Kr/mån | 2026-12-01 | Ledig fr.o.m.",
     "rawText": "3 rum och kök\nStorlek\n77.3\nKvm\n9241\nKr/mån\n2026-12-01\nLedig fr.o.m.",
     "imageUrl": null,
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
