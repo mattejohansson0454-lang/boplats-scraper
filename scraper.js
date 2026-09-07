@@ -57,6 +57,14 @@ async function run() {
     for (let i = 0; i < 7; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
+      // Scrolla för att trigga eventuell lazy loading av bilder innan skrapning
+      await page.evaluate(async () => {
+        window.scrollBy(0, 400);
+        await new Promise(resolve => setTimeout(resolve, 800));
+        window.scrollBy(0, -400);
+      });
+      await new Promise(resolve => setTimeout(resolve, 1500));
+      
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
         const cards = Array.from(document.querySelectorAll('div, mat-card, article, li')).filter(el => {
@@ -72,18 +80,44 @@ async function run() {
           const text = el.innerText.trim();
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
           
-          // Hitta bild i eller nära kortet
-          const imgEl = el.querySelector('img') || el.closest('div, mat-card, article, li')?.querySelector('img');
-          const imageUrl = imgEl ? (imgEl.src || imgEl.getAttribute('data-src')) : null;
+          const cardContainer = el.closest('mat-card, article, div, section') || el;
+          
+          // Robust bildhantering som fångar upp lazy-load och srcset
+          const imgEl = cardContainer.querySelector('img');
+          let imageUrl = null;
+          if (imgEl) {
+            imageUrl = imgEl.src || 
+                       imgEl.getAttribute('data-src') || 
+                       imgEl.getAttribute('data-lazy-src') || 
+                       imgEl.srcset;
+            
+            if (imageUrl && imageUrl.includes(',')) {
+              imageUrl = imageUrl.split(',')[0].trim().split(' ')[0];
+            }
+          }
 
           // Hitta specifik länk om den finns
-          const linkEl = el.querySelector('a') || el.closest('a');
+          const linkEl = cardContainer.querySelector('a') || el.closest('a');
           const itemUrl = linkEl ? linkEl.href : window.location.href;
+
+          const cleanLines = lines.filter(l => {
+            const lLower = l.toLowerCase();
+            return !lLower.includes('kr') && 
+                   !lLower.includes('rum') && 
+                   !lLower.includes('rok') && 
+                   !lLower.includes('kvm') && 
+                   !lLower.match(/^\d{4}-\d{2}-\d{2}$/) &&
+                   lLower !== 'nu';
+          });
+
+          const address = cleanLines[0] || lines[0] || 'Okänd adress';
+          const area = cleanLines[1] || '';
 
           if (lines.length > 0) {
             results.push({
-              address: lines[0],
-              description: lines.slice(1, 4).join(' | '),
+              address: address,
+              area: area,
+              description: lines.slice(1).join(' | '),
               rawText: text,
               imageUrl: imageUrl,
               boplatsUrl: itemUrl
