@@ -11,31 +11,32 @@ async function run() {
     const page = await browser.newPage();
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
-    // Rätt URL till Vidingehems publika bostadssida
     await page.goto('https://minasidor.vidingehem.se/bostad', {
-      waitUntil: 'networkidle2',
-      timeout: 40000
+      waitUntil: 'networkidle0',
+      timeout: 60000
     });
 
-    // Vänta in att bostadskorten laddas in på sidan
-    await new Promise(resolve => setTimeout(resolve, 4000));
+    // Extra väntetid för att låta JavaScript ladda in bostadskorten
+    await new Promise(resolve => setTimeout(resolve, 7000));
 
     const apartments = await page.evaluate(() => {
       const results = [];
-      // Letar efter block som innehåller information om lägenheter (t.ex. ROK, kr, adresser)
-      const elements = document.querySelectorAll('article, div, section, li');
+      // Hämta alla element som kan tänkas vara bostadskort eller länkar
+      const cards = document.querySelectorAll('article, div, a, li');
       
-      elements.forEach((el, idx) => {
+      cards.forEach((el, idx) => {
         const text = el.innerText;
-        if (text && text.includes('ROK') && text.includes('kr')) {
+        // Letar efter bostadstermer som "ROK" eller "rum" samt hyra
+        if (text && (text.includes('ROK') || text.includes('rum')) && text.length < 300) {
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-          results.push({
-            id: `VOT-${idx}`,
-            address: lines[0] || 'Adress saknas',
-            details: lines.slice(1, 5).join(' | '),
-            fullInfo: text.replace(/\s+/g, ' ').trim(),
-            boplatsUrl: 'https://minasidor.vidingehem.se/bostad'
-          });
+          if (lines.length > 0) {
+            results.push({
+              id: `VOT-${idx}`,
+              address: lines[0],
+              details: lines.slice(1, 4).join(' | '),
+              boplatsUrl: el.href || 'https://minasidor.vidingehem.se/bostad'
+            });
+          }
         }
       });
       return results;
@@ -43,12 +44,12 @@ async function run() {
 
     await browser.close();
 
-    // Ta bort dubbletter baserat på adress
+    // Rensa bort dubbletter baserat på adress
     const uniqueApartments = Array.from(new Set(apartments.map(a => a.address)))
       .map(addr => apartments.find(a => a.address === addr));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'lägenheter från Vidingehem.');
+    console.log('Sparade', uniqueApartments.length, 'lägenheter.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
