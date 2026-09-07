@@ -12,29 +12,29 @@ async function run() {
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
     await page.goto('https://minasidor.vidingehem.se/bostad', {
-      waitUntil: 'networkidle0',
-      timeout: 60000
+      waitUntil: 'networkidle2',
+      timeout: 90000
     });
 
-    // Extra väntetid för att låta JavaScript ladda in bostadskorten
-    await new Promise(resolve => setTimeout(resolve, 7000));
+    // Vänta 20 sekunder så att allt innehåll garanterat hinner laddas
+    await new Promise(resolve => setTimeout(resolve, 20000));
 
     const apartments = await page.evaluate(() => {
       const results = [];
-      // Hämta alla element som kan tänkas vara bostadskort eller länkar
-      const cards = document.querySelectorAll('article, div, a, li');
+      const allElements = document.querySelectorAll('*');
       
-      cards.forEach((el, idx) => {
-        const text = el.innerText;
-        // Letar efter bostadstermer som "ROK" eller "rum" samt hyra
-        if (text && (text.includes('ROK') || text.includes('rum')) && text.length < 300) {
+      allElements.forEach((el, idx) => {
+        const text = el.innerText ? el.innerText.trim() : '';
+        const lowerText = text.toLowerCase();
+        
+        if (text && (lowerText.includes('rok') || lowerText.includes('rum')) && lowerText.includes('kr') && text.length < 500) {
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
           if (lines.length > 0) {
             results.push({
-              id: `VOT-${idx}`,
+              id: `APT-${idx}`,
               address: lines[0],
-              details: lines.slice(1, 4).join(' | '),
-              boplatsUrl: el.href || 'https://minasidor.vidingehem.se/bostad'
+              description: lines.slice(0, 4).join(' | '),
+              boplatsUrl: 'https://minasidor.vidingehem.se/bostad'
             });
           }
         }
@@ -49,7 +49,7 @@ async function run() {
       .map(addr => apartments.find(a => a.address === addr));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'lägenheter.');
+    console.log('Sparade', uniqueApartments.length, 'objekt.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
