@@ -73,5 +73,245 @@
     "address": "1 rum och kokvrå",
     "description": "1 rum och kokvrå | Storlek | 40 | Kvm",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "address": "Ejdervägen 33 B",
+    "description": "Ejdervägen 33 B | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Ejdervägen 19 B",
+    "description": "Ejdervägen 19 B | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Herrgårdsgatan 7 A",
+    "description": "Herrgårdsgatan 7 A | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Torstens väg 8",
+    "description": "Torstens väg 8 | Rottne | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Baron Rappes väg 15",
+    "description": "Baron Rappes väg 15 | Braås | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Parkgatan 2",
+    "description": "Parkgatan 2 | Braås | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Herrgårdsgatan 15 C",
+    "description": "Herrgårdsgatan 15 C | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Ejdervägen 21 B",
+    "description": "Ejdervägen 21 B | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Klintesvägen 6 H",
+    "description": "Klintesvägen 6 H | Ingelstad | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Movägen 80",
+    "description": "Movägen 80 | Braås | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Södertullsvägen 27 C",
+    "description": "Södertullsvägen 27 C | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Verkstadsvägen 1B",
+    "description": "Verkstadsvägen 1B | Rottne | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Ejdervägen 55 B",
+    "description": "Ejdervägen 55 B | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Näktergalsgränd 17",
+    "description": "Näktergalsgränd 17 | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "description": "Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Kopparvägen 1 A",
+    "description": "Kopparvägen 1 A | Rottne | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Ejdervägen 31 A",
+    "description": "Ejdervägen 31 A | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Herrgårdsgatan 9 A",
+    "description": "Herrgårdsgatan 9 A | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Rönnvägen 1 B",
+    "description": "Rönnvägen 1 B | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
+    "description": "Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
+    "description": "Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Kolarevägen 2",
+    "description": "Kolarevägen 2 | Braås | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Villavägen 14 D",
+    "description": "Villavägen 14 D | Rottne | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Kopparvägen 4",
+    "description": "Kopparvägen 4 | Rottne | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Pilgatan 4 C",
+    "description": "Pilgatan 4 C | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Bolsvägen 9",
+    "description": "Bolsvägen 9 | Värends Nöbbele | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Rönnvägen 1 A",
+    "description": "Rönnvägen 1 A | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Kopparslagarbacken 3",
+    "description": "Kopparslagarbacken 3 | Ingelstad | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Vallgatan 2",
+    "description": "Vallgatan 2 | Braås | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Billavägen 5 B",
+    "description": "Billavägen 5 B | Åryd | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Näktergalsgränd 23",
+    "description": "Näktergalsgränd 23 | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Herrgårdsgatan 15 G",
+    "description": "Herrgårdsgatan 15 G | Lammhult | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Södertullsvägen 29 A",
+    "description": "Södertullsvägen 29 A | Braås | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Herrgårdsgatan 9 B",
+    "description": "Herrgårdsgatan 9 B | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Billavägen 5 A",
+    "description": "Billavägen 5 A | Åryd | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Ejdervägen 43 B",
+    "description": "Ejdervägen 43 B | Lammhult | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Klintesvägen 4 K",
+    "description": "Klintesvägen 4 K | Ingelstad | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Herrgårdsgatan 5 B",
+    "description": "Herrgårdsgatan 5 B | Lammhult | 1 rum och kokvrå | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+  },
+  {
+    "address": "Movägen 2",
+    "description": "Movägen 2 | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Fabriksvägen 2 A",
+    "description": "Fabriksvägen 2 A | Rottne | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Movägen 62",
+    "description": "Movägen 62 | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Billavägen 1 A",
+    "description": "Billavägen 1 A | Åryd | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Södertullsvägen 29 B",
+    "description": "Södertullsvägen 29 B | Braås | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Ulvaskogsvägen 2 B",
+    "description": "Ulvaskogsvägen 2 B | Braås | 1 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Movägen 56",
+    "description": "Movägen 56 | Braås | 3 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Hagtornsvägen 5 D",
+    "description": "Hagtornsvägen 5 D | Åby | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Herrgårdsgatan 5 A",
+    "description": "Herrgårdsgatan 5 A | Lammhult | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+  },
+  {
+    "address": "Billavägen 15 E",
+    "description": "Billavägen 15 E | Åryd | 2 rum och kök | Storlek",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   }
 ]
