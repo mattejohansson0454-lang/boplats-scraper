@@ -55,7 +55,7 @@ async function run() {
 
     // Loopa igenom alla sidor
     for (let i = 0; i < 7; i++) {
-      console.log(`Skrapar sida ${i + 1}...`;
+      console.log(`Skrapar sida ${i + 1}...`);
       
       // Scrolla för att trigga lazy loading av bilder
       await page.evaluate(async () => {
