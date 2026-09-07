@@ -1,9 +1,9 @@
 name: Scrape Boplats
 
 on:
-  schedule:
-    - cron: '0 3 * * *'
   workflow_dispatch:
+  schedule:
+    - cron: '0 * * * *'
 
 jobs:
   build:
@@ -20,15 +20,13 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install axios cheerio
+        run: npm install
 
       - name: Run scraper
         run: node scraper.js
 
-      - name: Commit and push if changed
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add apartments.json
-          git diff --staged --quiet || git commit -m "Uppdatera lediga lägenheter [skip ci]"
-          git push
+      - name: Commit and push apartments.json
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Automated update of apartments.json"
+          file_pattern: apartments.json
