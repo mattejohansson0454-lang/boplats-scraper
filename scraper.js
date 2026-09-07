@@ -55,9 +55,9 @@ async function run() {
 
     // Loopa igenom alla sidor
     for (let i = 0; i < 7; i++) {
-      console.log(`Skrapar sida ${i + 1}...`);
+      console.log(`Skrapar sida ${i + 1}...`;
       
-      // Scrolla lite för att trigga eventuell lazy loading av bilder innan skrapning
+      // Scrolla för att trigga lazy loading av bilder
       await page.evaluate(async () => {
         window.scrollBy(0, 400);
         await new Promise(resolve => setTimeout(resolve, 800));
@@ -67,72 +67,67 @@ async function run() {
       
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
-        const cards = Array.from(document.querySelectorAll('div, mat-card, article, li')).filter(el => {
+        
+        // Hitta de övergripande kortbehållarna för varje lägenhet
+        const cardElements = Array.from(document.querySelectorAll('mat-card, article, div')).filter(el => {
           const text = el.innerText || '';
           const lower = text.toLowerCase();
-          return (lower.includes('rok') || lower.includes('rum')) && lower.includes('kr') && text.length < 400;
+          return (lower.includes('rum') || lower.includes('rok')) && lower.includes('kr') && text.length > 30 && text.length < 800;
         });
 
-        // Filtrera till de innersta elementen för att undvika dubbletter
-        const leafCards = cards.filter(el => !cards.some(other => other !== el && el.contains(other)));
+        // Filtrera till de innersta unika korten för att slippa dubbletter
+        const leafCards = cardElements.filter(el => !cardElements.some(other => other !== el && el.contains(other)));
 
         leafCards.forEach(el => {
           const text = el.innerText.trim();
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
-          
-          const cardContainer = el.closest('mat-card, article, div, section') || el;
-          
-          // Robust bildhantering som fångar upp lazy-load och srcset
-          const imgEl = cardContainer.querySelector('img');
+
+          // Hitta bild i kortet (stödjer både <img> och CSS bakgrundsbilder samt lazy-load)
+          const imgEl = el.querySelector('img') || el.querySelector('[style*="background-image"]');
           let imageUrl = null;
           if (imgEl) {
-            imageUrl = imgEl.src || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-lazy-src') || imgEl.srcset;
-            if (imageUrl && imageUrl.includes(',')) {
-              imageUrl = imageUrl.split(',')[0].trim().split(' ')[0];
+            if (imgEl.tagName === 'IMG') {
+              imageUrl = imgEl.src || imgEl.getAttribute('data-src') || imgEl.getAttribute('data-lazy-src') || imgEl.srcset;
+              if (imageUrl && imageUrl.includes(',')) {
+                imageUrl = imageUrl.split(',')[0].trim().split(' ')[0];
+              }
+            } else {
+              const match = imgEl.style.backgroundImage.match(/url$$['"]?(.*?)['"]?$$/);
+              if (match) imageUrl = match[1];
             }
           }
 
-          // Hitta specifik länk till objektet
-          const linkEl = cardContainer.querySelector('a') || el.closest('a');
+          // Hitta länk till objektet
+          const linkEl = el.querySelector('a') || el.closest('a');
           const itemUrl = linkEl ? linkEl.href : window.location.href;
 
-          // Separera fälten intelligent för att slippa röriga beskrivningar i appen
-          let address = '';
-          let area = '';
-          let rooms = '';
-          let sqm = '';
-          let rent = '';
-          let availableDate = '';
-
-          lines.forEach(l => {
+          // Ignorera UI-etiketter som "Storlek", "Kvm", "Kr/mån" etc. för att inte få fel på adressen
+          const ignoredLabels = ['storlek', 'kvm', 'kr/mån', 'kr', 'rum och kök', 'rum & kök', 'rok', 'ledig fr.o.m.', 'snarast', 'sista anmälan:'];
+          
+          const validLines = lines.filter(l => {
             const lower = l.toLowerCase();
-            if (/vägen|gatan|gränd|väg|gata/i.test(l) && !address) {
-              address = l;
-            } else if ((lower.includes('rum') || lower.includes('rok')) && !rooms) {
-              rooms = l;
-            } else if ((lower.includes('kr') || /^\d{3,5}\s*(kr)?$/i.test(l)) && !rent && !lower.includes('kvm')) {
-              rent = l;
-            } else if ((/^\d{2,3}([.,]\d)?$/.test(l) || lower.includes('kvm')) && !sqm) {
-              sqm = l.replace(/kvm/gi, '').trim();
-            } else if (/^\d{4}-\d{2}-\d{2}$/.test(l) && !availableDate) {
-              availableDate = l;
-            } else if (!area && (lower.includes('växjö') || (!address && l.length < 25 && !lower.includes('nu')))) {
-              area = l;
-            }
+            return !ignoredLabels.includes(lower) && 
+                   !/^\d{4}-\d{2}-\d{2}$/.test(l) &&
+                   !/^\d+([.,]\d+)?\s*(kvm|kr)?$/i.test(l);
           });
 
-          if (!address) {
-            address = lines.find(l => l.length > 3 && !l.toLowerCase().includes('kr') && !l.toLowerCase().includes('rum')) || 'Okänd adress';
-          }
+          // Extrahera fält
+          let address = validLines.find(l => /vägen|gatan|gränd|väg|gata/i.test(l)) || validLines[0] || 'Okänd adress';
+          let area = validLines.find(l => l !== address && (l.toLowerCase().includes('växjö') || l.length < 25)) || '';
 
-          if (lines.length > 0) {
+          let rooms = lines.find(l => /rum|rok/i.test(l)) || '';
+          let sqm = lines.find(l => /kvm/i.test(l) || /^\d+([.,]\d+)?\s*kvm/i.test(l)) || '';
+          let rent = lines.find(l => l.toLowerCase().includes('kr') && !l.toLowerCase().includes('kvm')) || '';
+          let availableDate = lines.find(l => /^\d{4}-\d{2}-\d{2}$/.test(l)) || 'Snarast';
+
+          if (text.length > 0) {
             results.push({
               address: address,
               area: area || 'Växjö',
-              rooms: rooms || 'Okänd storlek',
-              sqm: sqm ? sqm + ' kvm' : '',
-              rent: rent ? (rent.includes('kr') ? rent : rent + ' kr/mån') : '',
-              availableDate: availableDate || 'Snarast',
+              rooms: rooms,
+              sqm: sqm,
+              rent: rent,
+              availableDate: availableDate,
               description: lines.join(' | '),
               rawText: text,
               imageUrl: imageUrl ? (imageUrl.startsWith('http') ? imageUrl : 'https://minasidor.vidingehem.se' + imageUrl) : null,
@@ -173,7 +168,7 @@ async function run() {
     await browser.close();
 
     fs.writeFileSync('apartments.json', JSON.stringify(allApartments, null, 2));
-    console.log('Sparade totalt', allApartments.length, 'objekt med bilder och strukturerad data.');
+    console.log('Sparade totalt', allApartments.length, 'objekt med korrekta adresser, bilder och data.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
