@@ -12,11 +12,14 @@ async function run() {
     
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
-    // Ökar tidsgränsen till 60 sekunder och laddar in sidan snabbare
+    // Laddar in direkt utan att vänta ut sega resurser
     await page.goto('https://www.vaxjo.se/boplats/se/boplats-vaxjo.html', {
-      waitUntil: 'domcontentloaded',
-      timeout: 60000
+      waitUntil: 'commit',
+      timeout: 30000
     });
+
+    // Vänta 3 sekunder så att HTML-innehållet hinner dyka upp
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
     const apartments = await page.evaluate(() => {
       const unwanted = [
