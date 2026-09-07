@@ -5,53 +5,48 @@ async function run() {
   try {
     const browser = await puppeteer.launch({
       headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
+      args: [
+        '--no-sandbox', 
+        '--disable-setuid-sandbox',
+        '--disable-blink-features=AutomationControlled'
+      ]
     });
     
     const page = await browser.newPage();
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
-    // Sätt stor viewport så inget döljs av mobilanpassade menyer
-    await page.setViewport({ width: 1280, height: 800 });
-
-    await page.goto('https://minasidor.vidingehem.se/bostad', {
-      waitUntil: 'networkidle2',
-      timeout: 90000
+    // Dölj att det är en bot bättre
+    await page.evaluateOnNewDocument(() => {
+      Object.defineProperty(navigator, 'webdriver', { get: () => false });
     });
 
-    // Vänta på att eventuell cookie-banner dyker upp och klicka bort den om den finns
-    try {
-      await page.waitForSelector('button, a', { timeout: 5000 });
-      await page.evaluate(() => {
-        const buttons = Array.from(document.querySelectorAll('button, a'));
-        const acceptBtn = buttons.find(b => {
-          const t = b.innerText.toLowerCase();
-          return t.includes('godkänn') || t.includes('acceptera') || t.includes('tillåt');
-        });
-        if (acceptBtn) acceptBtn.click();
-      });
-    } catch (e) {
-      console.log('Ingen cookie-knapp hittades eller så behövdes inte klick.');
-    }
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36');
+    
+    console.log('Navigerar till Vidingehem...');
+    await page.goto('https://minasidor.vidingehem.se/bostad', {
+      waitUntil: 'networkidle2',
+      timeout: 60000
+    });
 
-    // Vänta ytterligare 15 sekunder för att bostäderna ska laddas in
+    // Skriv ut den faktiska URL:en vi landade på (för att se om vi skickades till inlogg)
+    console.log('Faktisk URL efter laddning:', page.url());
+
+    // Vänta 15 sekunder
     await new Promise(resolve => setTimeout(resolve, 15000));
 
-    // Skriv ut lite sidinfo till loggen för felsökning
-    const pageText = await page.evaluate(() => document.body.innerText);
-    console.log('Sidans längd i tecken:', pageText.length);
-    console.log('Första 500 tecknen på sidan:', pageText.substring(0, 500));
+    // Hämta all text på sidan för att se vad som lästs in
+    const pageContent = await page.evaluate(() => document.body.innerText);
+    console.log('Sidans längd (tecken):', pageContent.length);
+    console.log('Utdrag från sidan:', pageContent.substring(0, 400));
 
     const apartments = await page.evaluate(() => {
       const results = [];
-      // Sök efter vanliga element som bygger upp bostadskort
-      const cards = document.querySelectorAll('article, .object-card, .vacancy-item, div, li');
+      const elements = document.querySelectorAll('*');
       
-      cards.forEach((el, idx) => {
+      elements.forEach((el, idx) => {
         const text = el.innerText ? el.innerText.trim() : '';
         const lowerText = text.toLowerCase();
         
-        if (text && (lowerText.includes('rok') || lowerText.includes('rum')) && lowerText.includes('kr') && text.length < 600) {
+        if (text && (lowerText.includes('rok') || lowerText.includes('rum')) && lowerText.includes('kr') && text.length < 500) {
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
           if (lines.length > 0) {
             results.push({
