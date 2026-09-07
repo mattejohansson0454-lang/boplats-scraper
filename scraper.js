@@ -68,7 +68,7 @@ async function run() {
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
         
-        // Hitta de övergripande kortbehållarna för varje lägenhet
+        // Hitta korten baserat på att de innehåller rum/rok och kr
         const cardElements = Array.from(document.querySelectorAll('mat-card, article, div')).filter(el => {
           const text = el.innerText || '';
           const lower = text.toLowerCase();
@@ -82,7 +82,7 @@ async function run() {
           const text = el.innerText.trim();
           const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
 
-          // Hitta bild i kortet (stödjer både <img> och CSS bakgrundsbilder samt lazy-load)
+          // Hitta bildelementet i kortet
           const imgEl = el.querySelector('img') || el.querySelector('[style*="background-image"]');
           let imageUrl = null;
           if (imgEl) {
@@ -92,7 +92,7 @@ async function run() {
                 imageUrl = imageUrl.split(',')[0].trim().split(' ')[0];
               }
             } else {
-              const match = imgEl.style.backgroundImage.match(/url$$['"]?(.*?)['"]?$$/);
+              const match = imgEl.style.backgroundImage.match(/url\(['"]?(.*?)['"]?\)/);
               if (match) imageUrl = match[1];
             }
           }
@@ -101,29 +101,27 @@ async function run() {
           const linkEl = el.querySelector('a') || el.closest('a');
           const itemUrl = linkEl ? linkEl.href : window.location.href;
 
-          // Ignorera UI-etiketter som "Storlek", "Kvm", "Kr/mån" etc. för att inte få fel på adressen
-          const ignoredLabels = ['storlek', 'kvm', 'kr/mån', 'kr', 'rum och kök', 'rum & kök', 'rok', 'ledig fr.o.m.', 'snarast', 'sista anmälan:'];
-          
-          const validLines = lines.filter(l => {
-            const lower = l.toLowerCase();
-            return !ignoredLabels.includes(lower) && 
-                   !/^\d{4}-\d{2}-\d{2}$/.test(l) &&
-                   !/^\d+([.,]\d+)?\s*(kvm|kr)?$/i.test(l);
-          });
+          // Enligt skärmdumpen ligger strukturen konsekvent:
+          // Rad 0: Adress (t.ex. "Stjärnviksvägen 12")
+          // Rad 1: Område (t.ex. "Tävelsås" eller "Teleborg, Växjö")
+          let address = lines[0] || 'Okänd adress';
+          let area = lines[1] || 'Växjö';
 
-          // Extrahera fält
-          let address = validLines.find(l => /vägen|gatan|gränd|väg|gata/i.test(l)) || validLines[0] || 'Okänd adress';
-          let area = validLines.find(l => l !== address && (l.toLowerCase().includes('växjö') || l.length < 25)) || '';
+          // Om rad 0 av någon anledning skulle vara en rubrik istället, säkerställ att vi hittar rätt
+          if (address.toLowerCase() === 'storlek' || address.toLowerCase().includes('rum')) {
+            address = lines.find(l => l.length > 3 && !l.toLowerCase().includes('rum') && !l.toLowerCase().includes('kr')) || 'Okänd adress';
+            area = '';
+          }
 
           let rooms = lines.find(l => /rum|rok/i.test(l)) || '';
           let sqm = lines.find(l => /kvm/i.test(l) || /^\d+([.,]\d+)?\s*kvm/i.test(l)) || '';
           let rent = lines.find(l => l.toLowerCase().includes('kr') && !l.toLowerCase().includes('kvm')) || '';
-          let availableDate = lines.find(l => /^\d{4}-\d{2}-\d{2}$/.test(l)) || 'Snarast';
+          let availableDate = lines.find(l => /^\d{4}-\d{2}-\d{2}$/.test(l) || l.toLowerCase() === 'nu') || 'Snarast';
 
           if (text.length > 0) {
             results.push({
               address: address,
-              area: area || 'Växjö',
+              area: area,
               rooms: rooms,
               sqm: sqm,
               rent: rent,
@@ -168,7 +166,7 @@ async function run() {
     await browser.close();
 
     fs.writeFileSync('apartments.json', JSON.stringify(allApartments, null, 2));
-    console.log('Sparade totalt', allApartments.length, 'objekt med korrekta adresser, bilder och data.');
+    console.log('Sparade totalt', allApartments.length, 'objekt med adresser, områden och bilder.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
