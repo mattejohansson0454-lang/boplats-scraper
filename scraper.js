@@ -12,13 +12,13 @@ async function run() {
     
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
+    // Ökar tidsgränsen till 60 sekunder och laddar in sidan snabbare
     await page.goto('https://www.vaxjo.se/boplats/se/boplats-vaxjo.html', {
-      waitUntil: 'networkidle2',
-      timeout: 30000
+      waitUntil: 'domcontentloaded',
+      timeout: 60000
     });
 
     const apartments = await page.evaluate(() => {
-      // Listan med vanliga menylänkar på sidan som vi vill rensa bort
       const unwanted = [
         'MENY', 'Om oss', 'Att söka lägenhet', 'För dig som student', 
         'För dig som senior', 'För dig som ungdom', 'Poängfritt', 
@@ -33,13 +33,11 @@ async function run() {
           rent: 'Se länk',
           boplatsUrl: a.href
         }))
-        // Behåll bara länkar som har text och inte finns med i "unwanted"-listan
         .filter(item => item.address && !unwanted.includes(item.address) && item.address.length > 3);
     });
 
     await browser.close();
 
-    // Ta bort dubbletter baserat på URL
     const uniqueApartments = Array.from(new Set(apartments.map(a => a.boplatsUrl)))
       .map(url => apartments.find(a => a.boplatsUrl === url));
 
