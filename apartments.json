@@ -1,75 +1,93 @@
 [
   {
-    "id": "BOP-1",
-    "address": "Boplats Växjö",
+    "id": "BOP-0",
+    "address": "Mer information finns i vår cookie policy",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/sidor/politik-och-demokrati/om-webbplatsen/cookies---kakor.html"
+  },
+  {
+    "id": "BOP-4",
+    "address": "Företag",
+    "rent": "Se länk",
+    "boplatsUrl": "https://foretag.vaxjo.se/"
+  },
+  {
+    "id": "BOP-5",
+    "address": "Gymnasieval",
+    "rent": "Se länk",
+    "boplatsUrl": "http://gymnasieval.vaxjo.se/"
+  },
+  {
+    "id": "BOP-6",
+    "address": "Skolstart",
+    "rent": "Se länk",
+    "boplatsUrl": "https://skolstart.vaxjo.se/"
+  },
+  {
+    "id": "BOP-7",
+    "address": "Sommarjobb",
+    "rent": "Se länk",
+    "boplatsUrl": "https://sommarjobb.vaxjo.se/"
+  },
+  {
+    "id": "BOP-8",
+    "address": "Upplev",
+    "rent": "Se länk",
+    "boplatsUrl": "http://upplev.vaxjo.se/"
+  },
+  {
+    "id": "BOP-9",
+    "address": "Växjö kommun",
+    "rent": "Se länk",
+    "boplatsUrl": "https://vaxjo.se/"
+  },
+  {
+    "id": "BOP-25",
+    "address": "Startsida",
     "rent": "Se länk",
     "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo.html"
   },
   {
-    "id": "BOP-2",
-    "address": "Till innehållet",
+    "id": "BOP-28",
+    "address": "Sök lägenheter",
     "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo.html#page_content"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "id": "BOP-3",
-    "address": "Boplats Växjö",
+    "id": "BOP-29",
+    "address": "Registrera dig",
     "rent": "Se länk",
-    "boplatsUrl": "https://boplats.vaxjo.se/"
+    "boplatsUrl": "https://minasidor.vidingehem.se/registration"
   },
   {
-    "id": "BOP-10",
-    "address": "Att söka lägenhet",
+    "id": "BOP-30",
+    "address": "Mina sidor*",
     "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/att-soka-lagenhet.html"
+    "boplatsUrl": "https://minasidor.vidingehem.se/signin"
   },
   {
-    "id": "BOP-11",
-    "address": "För dig som student",
-    "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/for-dig-som-student.html"
-  },
-  {
-    "id": "BOP-12",
-    "address": "För dig som senior",
-    "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/for-dig-som-senior.html"
-  },
-  {
-    "id": "BOP-13",
-    "address": "För dig som ungdom",
-    "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/for-dig-som-ungdom.html"
-  },
-  {
-    "id": "BOP-14",
-    "address": "Poängfritt",
+    "id": "BOP-31",
+    "address": "\"Poängfritt\".",
     "rent": "Se länk",
     "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/poangfritt.html"
   },
   {
-    "id": "BOP-15",
-    "address": "Var kan jag bo?",
+    "id": "BOP-32",
+    "address": "Vidingehems webbplats.\nLänk till annan webbplats.",
     "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/var-kan-jag-bo.html"
+    "boplatsUrl": "https://www.vidingehem.se/hyresgast/kundcenter/uthyrningspolicy.html"
   },
   {
-    "id": "BOP-16",
-    "address": "Om oss",
+    "id": "BOP-33",
+    "address": "emma.ragnerby@vidingehem.se.",
     "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo/om-oss.html"
+    "boplatsUrl": "mailto:emma.ragnerby@vidingehem.se"
   },
   {
-    "id": "BOP-17",
-    "address": "MENY",
+    "id": "BOP-34",
+    "address": "Vidingehems webbplats\nLänk till annan webbplats.",
     "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/se/boplats-vaxjo.html#no-script-menu"
-  },
-  {
-    "id": "BOP-26",
-    "address": "English",
-    "rent": "Se länk",
-    "boplatsUrl": "https://www.vaxjo.se/boplats/en/boplats-vaxjo.html"
+    "boplatsUrl": "https://www.vidingehem.se/visningar.html"
   },
   {
     "id": "BOP-37",
@@ -78,9 +96,81 @@
     "boplatsUrl": "http://e-tjanster.vaxjo.se/boplats"
   },
   {
+    "id": "BOP-38",
+    "address": "0470 - 73 47 00",
+    "rent": "Se länk",
+    "boplatsUrl": "tel:0470-734700"
+  },
+  {
     "id": "BOP-39",
     "address": "boplats@vaxjo.se",
     "rent": "Se länk",
     "boplatsUrl": "mailto:boplats@vaxjo.se"
+  },
+  {
+    "id": "BOP-40",
+    "address": "0470-410 00",
+    "rent": "Se länk",
+    "boplatsUrl": "tel:0470-41000"
+  },
+  {
+    "id": "BOP-41",
+    "address": "info@vaxjo.se",
+    "rent": "Se länk",
+    "boplatsUrl": "mailto:info@vaxjo.se"
+  },
+  {
+    "id": "BOP-42",
+    "address": "Journummer och mer kontaktinformation",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/sidor/politik-och-demokrati/kontakta-oss-pa-vaxjo-kommun.html"
+  },
+  {
+    "id": "BOP-43",
+    "address": "Tillgänglighetsredogörelse",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/sidor/politik-och-demokrati/om-webbplatsen/tillganglighetsredogorelse.html"
+  },
+  {
+    "id": "BOP-44",
+    "address": "Webbkarta",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/sidor/politik-och-demokrati/om-webbplatsen/webbkarta.html"
+  },
+  {
+    "id": "BOP-45",
+    "address": "För dig som medarbetare i Växjö kommun",
+    "rent": "Se länk",
+    "boplatsUrl": "http://intranat.vaxjo.se/"
+  },
+  {
+    "id": "BOP-47",
+    "address": "Bibliotek",
+    "rent": "Se länk",
+    "boplatsUrl": "https://bibliotek.vaxjo.se/"
+  },
+  {
+    "id": "BOP-48",
+    "address": "För press",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.vaxjo.se/sidor/politik-och-demokrati/allmanna-handlingar/for-press.html"
+  },
+  {
+    "id": "BOP-49",
+    "address": "Facebook",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.facebook.com/vaxjokommun"
+  },
+  {
+    "id": "BOP-50",
+    "address": "Instagram",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.instagram.com/vaxjokommun"
+  },
+  {
+    "id": "BOP-51",
+    "address": "LinkedIn",
+    "rent": "Se länk",
+    "boplatsUrl": "https://www.linkedin.com/company/vaxjo-kommun/"
   }
 ]
