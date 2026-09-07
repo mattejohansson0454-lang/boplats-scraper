@@ -4,13 +4,10 @@ const fs = require('fs');
 
 async function run() {
   try {
-    const { data } = await axios.get('https://www.vaxjo.se/boplats/se/boplats-vaxjo.html', {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Accept-Language': 'sv-SE,sv;q=0.9,en-US;q=0.8,en;q=0.7',
-      },
-      timeout: 10000
-    });
+    const targetUrl = 'https://www.vaxjo.se/boplats/se/boplats-vaxjo.html';
+    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
+    
+    const { data } = await axios.get(proxyUrl, { timeout: 15000 });
     
     const $ = cheerio.load(data);
     const apartments = [];
@@ -33,7 +30,7 @@ async function run() {
       .map(url => apartments.find(a => a.boplatsUrl === url));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'objekt.');
+    console.log('Sparade', uniqueApartments.length, 'objekt via proxy.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
