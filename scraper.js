@@ -53,7 +53,7 @@ async function run() {
 
     let allApartments = [];
 
-    // Loopa igenom sidorna (122 objekt / 25 per sida = ca 5-6 sidor)
+    // Loopa igenom sidorna (122 objekt / 25 per sida = ca 6 sidor)
     for (let i = 0; i < 6; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
@@ -82,16 +82,17 @@ async function run() {
       allApartments.push(...apartmentsOnPage);
 
       if (i < 5) {
-        // Klicka på nästa-knappen (pil höger) i pagineringen
+        // Förbättrad sökning efter nästa-knappen i Angular Material Paginator
         const clickedNext = await page.evaluate(() => {
-          const buttons = Array.from(document.querySelectorAll('button'));
-          const nextBtn = buttons.find(b => {
-            const text = b.innerText.trim();
-            const icon = b.querySelector('mat-icon');
-            return text === '>' || text === '»' || (icon && icon.innerText.includes('chevron_right'));
-          });
+          const nextBtn = document.querySelector('button.mat-paginator-navigation-next') ||
+                          document.querySelector('button[aria-label*="Next"]') ||
+                          document.querySelector('button[aria-label*="Nästa"]') ||
+                          Array.from(document.querySelectorAll('button')).find(b => {
+                            const icon = b.querySelector('mat-icon');
+                            return icon && (icon.innerText.includes('chevron_right') || icon.innerText.includes('navigate_next'));
+                          });
           
-          if (nextBtn && !nextBtn.disabled) {
+          if (nextBtn && !nextBtn.disabled && !nextBtn.classList.contains('mat-button-disabled')) {
             nextBtn.click();
             return true;
           }
@@ -99,7 +100,7 @@ async function run() {
         });
 
         if (!clickedNext) {
-          console.log('Ingen nästa-knapp hittades, eller sista sidan nådd.');
+          console.log('Ingen fler nästa-knapp hittades.');
           break;
         }
         await new Promise(resolve => setTimeout(resolve, 4000));
