@@ -48,15 +48,16 @@ async function run() {
       if (bostadLink) bostadLink.click();
     });
 
-    // Vänta på att listan laddas
+    // Vänta på att första listan laddas ordentligt
     await new Promise(resolve => setTimeout(resolve, 6000));
 
     let allApartments = [];
 
-    // Loopa igenom sidorna (122 objekt / 25 per sida = ca 6 sidor)
+    // Loopa igenom alla 6 sidor
     for (let i = 0; i < 6; i++) {
       console.log(`Skrapar sida ${i + 1}...`);
       
+      // Extrahera bostäder från aktuell sida
       const apartmentsOnPage = await page.evaluate(() => {
         const results = [];
         const elements = document.querySelectorAll('*');
@@ -81,8 +82,8 @@ async function run() {
 
       allApartments.push(...apartmentsOnPage);
 
+      // Om det inte är sista sidan, klicka på nästa
       if (i < 5) {
-        // Förbättrad sökning efter nästa-knappen i Angular Material Paginator
         const clickedNext = await page.evaluate(() => {
           const nextBtn = document.querySelector('button.mat-paginator-navigation-next') ||
                           document.querySelector('button[aria-label*="Next"]') ||
@@ -103,7 +104,9 @@ async function run() {
           console.log('Ingen fler nästa-knapp hittades.');
           break;
         }
-        await new Promise(resolve => setTimeout(resolve, 4000));
+        
+        // Ge sidan lite längre tid att ladda in nästa sidas data
+        await new Promise(resolve => setTimeout(resolve, 6000));
       }
     }
 
