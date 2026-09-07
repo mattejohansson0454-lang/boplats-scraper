@@ -9,39 +9,46 @@ async function run() {
     });
     
     const page = await browser.newPage();
-    
     await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36');
     
-    await page.goto('https://www.vaxjo.se/boplats/se/boplats-vaxjo.html', {
-      waitUntil: 'load',
-      timeout: 30000
+    // Rätt URL till Vidingehems publika bostadssida
+    await page.goto('https://minasidor.vidingehem.se/bostad', {
+      waitUntil: 'networkidle2',
+      timeout: 40000
     });
 
+    // Vänta in att bostadskorten laddas in på sidan
+    await new Promise(resolve => setTimeout(resolve, 4000));
+
     const apartments = await page.evaluate(() => {
-      const unwanted = [
-        'MENY', 'Om oss', 'Att söka lägenhet', 'För dig som student', 
-        'För dig som senior', 'För dig som ungdom', 'Poängfritt', 
-        'Var kan jag bo?', 'Boplats Växjö', 'Till innehållet', 'English',
-        'Lediga lägenheter', 'Kontakta oss'
-      ];
+      const results = [];
+      // Letar efter block som innehåller information om lägenheter (t.ex. ROK, kr, adresser)
+      const elements = document.querySelectorAll('article, div, section, li');
       
-      return Array.from(document.querySelectorAll('a'))
-        .map((a, index) => ({
-          id: `BOP-${index}`,
-          address: a.innerText.trim(),
-          rent: 'Se länk',
-          boplatsUrl: a.href
-        }))
-        .filter(item => item.address && !unwanted.includes(item.address) && item.address.length > 3);
+      elements.forEach((el, idx) => {
+        const text = el.innerText;
+        if (text && text.includes('ROK') && text.includes('kr')) {
+          const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+          results.push({
+            id: `VOT-${idx}`,
+            address: lines[0] || 'Adress saknas',
+            details: lines.slice(1, 5).join(' | '),
+            fullInfo: text.replace(/\s+/g, ' ').trim(),
+            boplatsUrl: 'https://minasidor.vidingehem.se/bostad'
+          });
+        }
+      });
+      return results;
     });
 
     await browser.close();
 
-    const uniqueApartments = Array.from(new Set(apartments.map(a => a.boplatsUrl)))
-      .map(url => apartments.find(a => a.boplatsUrl === url));
+    // Ta bort dubbletter baserat på adress
+    const uniqueApartments = Array.from(new Set(apartments.map(a => a.address)))
+      .map(addr => apartments.find(a => a.address === addr));
 
     fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
-    console.log('Sparade', uniqueApartments.length, 'objekt.');
+    console.log('Sparade', uniqueApartments.length, 'lägenheter från Vidingehem.');
   } catch (error) {
     console.error('Fel vid skrapning:', error.message);
     process.exit(1);
