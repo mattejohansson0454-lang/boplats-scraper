@@ -8,21 +8,28 @@ async function run() {
     const $ = cheerio.load(data);
     const apartments = [];
 
-    $('.apartment-item-class').each((index, element) => {
-      const address = $(element).find('.address-class').text().trim();
-      const rent = $(element).find('.rent-class').text().trim();
-      const boplatsUrl = $(element).find('a').attr('href');
+    // Letar efter länkar eller objekt på sidan
+    $('a').each((index, element) => {
+      const text = $(element).text().trim();
+      const href = $(element).attr('href');
 
-      apartments.push({
-        id: `BOP-${index}`,
-        address,
-        rent,
-        boplatsUrl: `https://www.vaxjo.se${boplatsUrl}`
-      });
+      // Filtrera ut länkar som ser ut att handla om boenden/lägenheter
+      if (href && (href.includes('boplats') || text.includes('kvm') || text.includes('rum'))) {
+        apartments.push({
+          id: `BOP-${index}`,
+          address: text || 'Adress saknas',
+          rent: 'Se länk',
+          boplatsUrl: href.startsWith('http') ? href : `https://www.vaxjo.se${href}`
+        });
+      }
     });
 
-    fs.writeFileSync('apartments.json', JSON.stringify(apartments, null, 2));
-    console.log('Sparade', apartments.length, 'lägenheter.');
+    // Ta bort dubbletter
+    const uniqueApartments = Array.from(new Set(apartments.map(a => a.boplatsUrl)))
+      .map(url => apartments.find(a => a.boplatsUrl === url));
+
+    fs.writeFileSync('apartments.json', JSON.stringify(uniqueApartments, null, 2));
+    console.log('Sparade', uniqueApartments.length, 'objekt.');
   } catch (error) {
     console.error('Fel vid skrapning:', error);
     process.exit(1);
