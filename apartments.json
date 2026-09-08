@@ -204,18 +204,6 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "Skansvägen 216 F",
-    "area": "Rottne",
-    "rooms": "3 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "Nu",
-    "description": "Skansvägen 216 F | Rottne | 3 rum och kök | Storlek | 73.3 | Kvm | 10617 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
-    "rawText": "Skansvägen 216 F\nRottne\n3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/K9jt7xDwpJTH6jCkPXyDjkfj/thumbnail?width=660&height=440&version=f-566136",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
-  },
-  {
     "address": "Hjalmar Petris väg 2",
     "area": "Araby, Växjö",
     "rooms": "2 rum och kök",
@@ -225,6 +213,18 @@
     "description": "Hjalmar Petris väg 2 | Araby, Växjö | 2 rum och kök | Storlek | 58.1 | Kvm | 8600 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i ett höghus på 16 våningar med fantastisk utsikt över hela Växjö. Perfekt läge med närhet till det mesta. Stortorget ligger bara 2,8 km bort, köpcentret Grand Samarkand ännu närmre. Blir du sugen på ett dopp är badplatsen ett stenkast bort. Du har mataffär runt hörnet och bor granne med mötesplats Tallgården, där det finns bibliotek och café. | Huset är byggt 2011 och lägenheterna består av 1-4 rum och kök och håller hög standard. De större lägenheterna har två balkonger. | I närområdet finns stora grönytor, flera lekplatser och närhet till skolor. Du tar dig enkelt dit du vill då bussar passerar området flera gånger i timmen. Araby fritidsområde vid Helgasjön samt Araby golfbana ligger i närheten.",
     "rawText": "Hjalmar Petris väg 2\nAraby, Växjö\n2 rum och kök\nStorlek\n58.1\nKvm\n8600\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i ett höghus på 16 våningar med fantastisk utsikt över hela Växjö. Perfekt läge med närhet till det mesta. Stortorget ligger bara 2,8 km bort, köpcentret Grand Samarkand ännu närmre. Blir du sugen på ett dopp är badplatsen ett stenkast bort. Du har mataffär runt hörnet och bor granne med mötesplats Tallgården, där det finns bibliotek och café.\n\nHuset är byggt 2011 och lägenheterna består av 1-4 rum och kök och håller hög standard. De större lägenheterna har två balkonger.\n\nI närområdet finns stora grönytor, flera lekplatser och närhet till skolor. Du tar dig enkelt dit du vill då bussar passerar området flera gånger i timmen. Araby fritidsområde vid Helgasjön samt Araby golfbana ligger i närheten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/ywbvGbYykKgQ9b8XBVC9Jvvb/thumbnail?width=660&height=440&version=f-564850",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "address": "Skansvägen 216 F",
+    "area": "Rottne",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "Nu",
+    "description": "Skansvägen 216 F | Rottne | 3 rum och kök | Storlek | 73.3 | Kvm | 10617 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
+    "rawText": "Skansvägen 216 F\nRottne\n3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/K9jt7xDwpJTH6jCkPXyDjkfj/thumbnail?width=660&height=440&version=f-566136",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
@@ -744,6 +744,18 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
+    "address": "Torstens väg 8",
+    "area": "Rottne",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "Nu",
+    "description": "Torstens väg 8 | Rottne | 2 rum och kök | Storlek | 65 | Kvm | 7094 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
+    "rawText": "Torstens väg 8\nRottne\n2 rum och kök\nStorlek\n65\nKvm\n7094\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/xgCjcVMxdhCqQhd6JdJbtfQG/thumbnail?width=660&height=440&version=f-566141",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
     "address": "Baron Rappes väg 15",
     "area": "Braås",
     "rooms": "1 rum och kök",
@@ -765,18 +777,6 @@
     "description": "Parkgatan 2 | Braås | 1 rum och kök | Storlek | 39.6 | Kvm | 4467 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor man antingen i en den större, renoverade fastigheten eller i de hemtrevliga marklägenheterna.",
     "rawText": "Parkgatan 2\nBraås\n1 rum och kök\nStorlek\n39.6\nKvm\n4467\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor man antingen i en den större, renoverade fastigheten eller i de hemtrevliga marklägenheterna.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/pdH47GYJYK7cxYkdbmy4WggK/thumbnail?width=660&height=440&version=f-1209334",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
-  },
-  {
-    "address": "Torstens väg 8",
-    "area": "Rottne",
-    "rooms": "2 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "Nu",
-    "description": "Torstens väg 8 | Rottne | 2 rum och kök | Storlek | 65 | Kvm | 7094 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
-    "rawText": "Torstens väg 8\nRottne\n2 rum och kök\nStorlek\n65\nKvm\n7094\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/xgCjcVMxdhCqQhd6JdJbtfQG/thumbnail?width=660&height=440&version=f-566141",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
@@ -804,18 +804,6 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Torstens väg 10",
-    "area": "Rottne",
-    "rooms": "3 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "2026-12-01",
-    "description": "Torstens väg 10 | Rottne | 3 rum och kök | Storlek | 75 | Kvm | 7994 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
-    "rawText": "Torstens väg 10\nRottne\n3 rum och kök\nStorlek\n75\nKvm\n7994\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/GhDfd4wqkpHDXQCJJbMCjbcb/thumbnail?width=660&height=440&version=f-566141",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
-  },
-  {
     "address": "Herrgårdsgatan 15 C",
     "area": "Lammhult",
     "rooms": "3 rum och kök",
@@ -825,6 +813,18 @@
     "description": "Herrgårdsgatan 15 C | Lammhult | 3 rum och kök | Storlek | 71 | Kvm | 6830 | Kr/mån | Nu | Ledig fr.o.m. | Här bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "rawText": "Herrgårdsgatan 15 C\nLammhult\n3 rum och kök\nStorlek\n71\nKvm\n6830\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/v4PD97wqtW7R8jJYTXWbF8TB/thumbnail?width=660&height=440&version=f-792638",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Torstens väg 10",
+    "area": "Rottne",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Torstens väg 10 | Rottne | 3 rum och kök | Storlek | 75 | Kvm | 7994 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
+    "rawText": "Torstens väg 10\nRottne\n3 rum och kök\nStorlek\n75\nKvm\n7994\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/GhDfd4wqkpHDXQCJJbMCjbcb/thumbnail?width=660&height=440&version=f-566141",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
