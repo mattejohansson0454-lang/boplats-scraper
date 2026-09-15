@@ -1,5 +1,17 @@
 [
   {
+    "address": "Håkan Sjögrens väg A 6 A",
+    "area": "Norr, Växjö",
+    "rooms": "4 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-11-01",
+    "description": "Håkan Sjögrens väg A 6 A | Norr, Växjö | 4 rum och kök | Storlek | 96.5 | Kvm | 9832 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Håkan Sjögrens väg är ett attraktivt och barnvänligt bostadsområde med närhet till flera grönytor och lekplatser. Du bor granne med Kristinatorget där du hittar matbutik, restaurang och frisör. | Här bor du med bra läge endast 5 minuter med cykel in till centrum. Närmaste friluftsområde är Fyllerydsskogen, där du har golfbana och joggingrundor strax intill. | Fastigheterna byggdes 1959-61 och en helrenovering genomfördes 1999-2005. | Här finns en kvarterslokal, som kan användas för olika aktiviteter och du kan även hyra den för privata tillställningar.",
+    "rawText": "Håkan Sjögrens väg A 6 A\nNorr, Växjö\n4 rum och kök\nStorlek\n96.5\nKvm\n9832\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHåkan Sjögrens väg är ett attraktivt och barnvänligt bostadsområde med närhet till flera grönytor och lekplatser. Du bor granne med Kristinatorget där du hittar matbutik, restaurang och frisör.\n\nHär bor du med bra läge endast 5 minuter med cykel in till centrum. Närmaste friluftsområde är Fyllerydsskogen, där du har golfbana och joggingrundor strax intill.\n\nFastigheterna byggdes 1959-61 och en helrenovering genomfördes 1999-2005.\n\nHär finns en kvarterslokal, som kan användas för olika aktiviteter och du kan även hyra den för privata tillställningar.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/G7QJgFcqtT9yqryXQ8qTQvT7/thumbnail?width=660&height=440&version=f-565096",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Herrgårdsgatan 15 B",
     "area": "Lammhult",
     "rooms": "2 rum och kök",
@@ -309,7 +321,7 @@
     "description": "Planetvägen 1 | Östra Lugnet, Växjö | 3 rum och kök | Storlek | 73.1 | Kvm | 10331 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Här bor du på bekvämt promenadavstånd från populära Evedal med camping, grönområden och badplats. Området är mycket barnvänligt med flera förskolor, skolor och lekparker. | På Planetvägen 1 och 3 finns 32 rökfria lägenheter fördelade på två fyravåningshus. Utanför husen finns en vacker utemiljö med lekplats och sittmöbler. | En viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år. | Tillgängligt boende vilket bland annat innebär hiss, rymliga badrum och låga eller inga trösklar. | Rökfritt boende.",
     "rawText": "Planetvägen 1\nÖstra Lugnet, Växjö\n3 rum och kök\nStorlek\n73.1\nKvm\n10331\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHär bor du på bekvämt promenadavstånd från populära Evedal med camping, grönområden och badplats. Området är mycket barnvänligt med flera förskolor, skolor och lekparker.\n\nPå Planetvägen 1 och 3 finns 32 rökfria lägenheter fördelade på två fyravåningshus. Utanför husen finns en vacker utemiljö med lekplats och sittmöbler.\n\nEn viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år.\n\nTillgängligt boende vilket bland annat innebär hiss, rymliga badrum och låga eller inga trösklar.\n\nRökfritt boende.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/rkDYdxdhG4h76Gp88PwHpPGv/thumbnail?width=660&height=440&version=f-565701",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Seminarievägen 39 A",
@@ -621,7 +633,7 @@
     "description": "Nydalavägen 24A | Araby, Växjö | 3 rum och kök | Storlek | 79.2 | Kvm | 9255 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Nydalavägen 24A\nAraby, Växjö\n3 rum och kök\nStorlek\n79.2\nKvm\n9255\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/YMKXFYTVkgYvtW7Vfv99gvWJ/thumbnail?width=660&height=440&version=f-566031",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Kopparslagarbacken 3",
@@ -921,7 +933,7 @@
     "description": "Billavägen 15 E | Åryd | 2 rum och kök | Storlek | 60.7 | Kvm | 6587 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Här bor du mitt i samhället, granne med skola, förskola och bibliotek och med medelbar närhet till idrottsplatsen, affären och badplatsen i Årydsjön.",
     "rawText": "Billavägen 15 E\nÅryd\n2 rum och kök\nStorlek\n60.7\nKvm\n6587\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHär bor du mitt i samhället, granne med skola, förskola och bibliotek och med medelbar närhet till idrottsplatsen, affären och badplatsen i Årydsjön.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/x7kqYgdHgFtFmGBcGXMWxxYR/thumbnail?width=660&height=440&version=f-1186266",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Movägen 56",
@@ -1221,7 +1233,7 @@
     "description": "Uranusvägen 1B | Östra Lugnet, Växjö | 2 rum och kök | Storlek | 64 | Kvm | 10317 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | På Uranusvägen 1 bor du bekvämt i en modern lägenhet med stor inglasad balkong. Området är mycket banrnvänligt med förskolor, skola och flera lekplatser. Du har promenadavstånd till vackra Evedal med naturreservat, camping och badplats. | Uranusvägen 1 byggdes år 2020 och består av 72 lägenheter fördelade på fyra femvåningshus. Lägenheterna har stora inglasade balkonger. Utanför husen finns lekplats och umgängesytor. | En viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år. | Tillgängligt boende vilket bland annat innebär hiss, rymliga badrum och låga eller inga trösklar. | Rökfritt boende.",
     "rawText": "Uranusvägen 1B\nÖstra Lugnet, Växjö\n2 rum och kök\nStorlek\n64\nKvm\n10317\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nPå Uranusvägen 1 bor du bekvämt i en modern lägenhet med stor inglasad balkong. Området är mycket banrnvänligt med förskolor, skola och flera lekplatser. Du har promenadavstånd till vackra Evedal med naturreservat, camping och badplats.\nUranusvägen 1 byggdes år 2020 och består av 72 lägenheter fördelade på fyra femvåningshus. Lägenheterna har stora inglasade balkonger. Utanför husen finns lekplats och umgängesytor.\n\nEn viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år.\n\nTillgängligt boende vilket bland annat innebär hiss, rymliga badrum och låga eller inga trösklar.\n\nRökfritt boende.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/QB9mR6dWHW7QVcJvTbDmF6my/thumbnail?width=660&height=440&version=f-875513",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Sandviksvägen 34 D",
