@@ -1,5 +1,29 @@
 [
   {
+    "address": "Skansvägen 216 F",
+    "area": "Rottne",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Skansvägen 216 F | Rottne | 3 rum och kök | Storlek | 73.3 | Kvm | 10617 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
+    "rawText": "Skansvägen 216 F\nRottne\n3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/cK7gKxTm7dBbw7fdkfDdMRjP/thumbnail?width=660&height=440&version=f-1192547",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "address": "Fabriksvägen 2 A",
+    "area": "Rottne",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-11-01",
+    "description": "Fabriksvägen 2 A | Rottne | 3 rum och kök | Storlek | 69.7 | Kvm | 8452 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Här bor du på det traditionsrika Stationsområdet, med hela Rottnes service inpå knuten. En viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år.",
+    "rawText": "Fabriksvägen 2 A\nRottne\n3 rum och kök\nStorlek\n69.7\nKvm\n8452\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHär bor du på det traditionsrika Stationsområdet, med hela Rottnes service inpå knuten. En viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/pdhMMFd8rfxFdjKfW4Q9R6Mc/thumbnail?width=660&height=440&version=f-566227",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Adelas väg 7",
     "area": "Bredvik, Växjö",
     "rooms": "3 rum och kök",
@@ -285,7 +309,7 @@
     "description": "Nydalavägen 4 A | Araby, Växjö | 3 rum och kök | Storlek | 79.2 | Kvm | 9247 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Nydalavägen 4 A\nAraby, Växjö\n3 rum och kök\nStorlek\n79.2\nKvm\n9247\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/BB4GpKrGXK8JmjP9HF7Dy8PR/thumbnail?width=660&height=440&version=f-564818",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Högövägen 24",
@@ -297,7 +321,7 @@
     "description": "Högövägen 24 | Bredvik, Växjö | 2 rum och kök | Storlek | 46.7 | Kvm | 9047 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett modernt och nybyggt kvarter som med mjuka färgskalor smälter in i naturen och framhäver de fina träfasaderna. Kvarteret har en innergård som upplevs som en förlängning av omgivningen. Du bor i en modern stad i staden, inspirerad av Sveriges äldsta trästäder. Genuint, bekvämt och med mycket själ. | Var du än befinner dig i din lägenhet känner du av närheten till naturen. Genom stora fönster och glaspartier, genom den varma ekparketten och när du öppnar dörren till din balkong eller uteplats. | Allt är skapat för att underlätta din vardag – för att du ska kunna njuta mer av livet. Tvättmaskin, torktumlare, lättstädade stora ytor, härligt öppet kök och ljusa stora rum. Och mycket, mycket mer. | Fastigheterna är byggda 2021 och 2022. Här finns tvåor, treor och fyror, sammanlagt 70 lägenheter uppdelade på sju hus.",
     "rawText": "Högövägen 24\nBredvik, Växjö\n2 rum och kök\nStorlek\n46.7\nKvm\n9047\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett modernt och nybyggt kvarter som med mjuka färgskalor smälter in i naturen och framhäver de fina träfasaderna. Kvarteret har en innergård som upplevs som en förlängning av omgivningen. Du bor i en modern stad i staden, inspirerad av Sveriges äldsta trästäder. Genuint, bekvämt och med mycket själ.\n\nVar du än befinner dig i din lägenhet känner du av närheten till naturen. Genom stora fönster och glaspartier, genom den varma ekparketten och när du öppnar dörren till din balkong eller uteplats.\n\nAllt är skapat för att underlätta din vardag – för att du ska kunna njuta mer av livet. Tvättmaskin, torktumlare, lättstädade stora ytor, härligt öppet kök och ljusa stora rum. Och mycket, mycket mer.\n\nFastigheterna är byggda 2021 och 2022. Här finns tvåor, treor och fyror, sammanlagt 70 lägenheter uppdelade på sju hus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/ChVpYC8YmXYQmMpDt6fwmPq9/thumbnail?width=660&height=440&version=f-564880",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Herrgårdsgatan 13 A",
@@ -585,7 +609,7 @@
     "description": "Håkan Sjögrens väg 6 A | Norr, Växjö | 4 rum och kök | Storlek | 96.5 | Kvm | 9832 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Håkan Sjögrens väg är ett attraktivt och barnvänligt bostadsområde med närhet till flera grönytor och lekplatser. Du bor granne med Kristinatorget där du hittar matbutik, restaurang och frisör. | Här bor du med bra läge endast 5 minuter med cykel in till centrum. Närmaste friluftsområde är Fyllerydsskogen, där du har golfbana och joggingrundor strax intill. | Fastigheterna byggdes 1959-61 och en helrenovering genomfördes 1999-2005. | Här finns en kvarterslokal, som kan användas för olika aktiviteter och du kan även hyra den för privata tillställningar.",
     "rawText": "Håkan Sjögrens väg 6 A\nNorr, Växjö\n4 rum och kök\nStorlek\n96.5\nKvm\n9832\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHåkan Sjögrens väg är ett attraktivt och barnvänligt bostadsområde med närhet till flera grönytor och lekplatser. Du bor granne med Kristinatorget där du hittar matbutik, restaurang och frisör.\n\nHär bor du med bra läge endast 5 minuter med cykel in till centrum. Närmaste friluftsområde är Fyllerydsskogen, där du har golfbana och joggingrundor strax intill.\n\nFastigheterna byggdes 1959-61 och en helrenovering genomfördes 1999-2005.\n\nHär finns en kvarterslokal, som kan användas för olika aktiviteter och du kan även hyra den för privata tillställningar.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/G7QJgFcqtT9yqryXQ8qTQvT7/thumbnail?width=660&height=440&version=f-565096",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Herrgårdsgatan 15 B",
@@ -597,7 +621,7 @@
     "description": "Herrgårdsgatan 15 B | Lammhult | 2 rum och kök | Storlek | 63 | Kvm | 6105 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "rawText": "Herrgårdsgatan 15 B\nLammhult\n2 rum och kök\nStorlek\n63\nKvm\n6105\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/qW9V7WqCBfHyTfwQtQJ7BfJ6/thumbnail?width=660&height=440&version=f-792638",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Hjalmar Petris väg 14D",
@@ -885,7 +909,7 @@
     "description": "Seminarievägen 39 A | Centrum, Växjö | 3 rum och kök | Storlek | 85.9 | Kvm | 7834 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | På Seminarievägen bor du i ljusa och rymliga lägenheter i 1-5 rum och kök. Husen byggdes 1965-66 och är byggda i 3-5 våningar. I anslutning till varje hus finns lekplatser med sandlådor, gungor och klätterställningar samt gemensamma uteplatser med sittmöbler. I kvarteret finns också en mindre fotbollsplan. | Bara ett stenkast bort ligger Spetsamossen med minigolf, skatepark och pizzeria. Kvarteret ligger centralt i Växjö med närhet till all service du behöver.",
     "rawText": "Seminarievägen 39 A\nCentrum, Växjö\n3 rum och kök\nStorlek\n85.9\nKvm\n7834\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nPå Seminarievägen bor du i ljusa och rymliga lägenheter i 1-5 rum och kök. Husen byggdes 1965-66 och är byggda i 3-5 våningar. I anslutning till varje hus finns lekplatser med sandlådor, gungor och klätterställningar samt gemensamma uteplatser med sittmöbler. I kvarteret finns också en mindre fotbollsplan.\n\nBara ett stenkast bort ligger Spetsamossen med minigolf, skatepark och pizzeria. Kvarteret ligger centralt i Växjö med närhet till all service du behöver.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/tydbQWxD8BVHDBPbgBcMYy4t/thumbnail?width=660&height=440&version=f-789124",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Herrgårdsgatan 15 F",
@@ -897,7 +921,7 @@
     "description": "Herrgårdsgatan 15 F | Lammhult | 1 rum och kokvrå | Storlek | 40 | Kvm | 3884 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "rawText": "Herrgårdsgatan 15 F\nLammhult\n1 rum och kokvrå\nStorlek\n40\nKvm\n3884\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/PTDCyK6TCVx4mYyYpJyCgmkt/thumbnail?width=660&height=440&version=f-792638",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Hagtornsvägen 5 A",
@@ -1197,7 +1221,7 @@
     "description": "Kopparslagarbacken 3 | Ingelstad | 2 rum och kök | Storlek | 64 | Kvm | 6931 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du alldeles intill Kvarndammen. På andra sidan broarna ligger samhällets centrum med all den dagliga service du behöver.",
     "rawText": "Kopparslagarbacken 3\nIngelstad\n2 rum och kök\nStorlek\n64\nKvm\n6931\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du alldeles intill Kvarndammen. På andra sidan broarna ligger samhällets centrum med all den dagliga service du behöver.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/WQpD8DKPwMxyyvDgW8VFx76V/thumbnail?width=660&height=440&version=f-565945",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Rönnvägen 1 A",
@@ -1209,7 +1233,7 @@
     "description": "Rönnvägen 1 A | Braås | 2 rum och kök | Storlek | 63 | Kvm | 6464 | Kr/mån | Nu | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
     "rawText": "Rönnvägen 1 A\nBraås\n2 rum och kök\nStorlek\n63\nKvm\n6464\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/vddphJfpvWMtRdbmHVFkrBdj/thumbnail?width=660&height=440&version=f-1158139",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Kopparvägen 4",
@@ -1497,7 +1521,7 @@
     "description": "Movägen 56 | Braås | 3 rum och kök | Storlek | 82 | Kvm | 8385 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "rawText": "Movägen 56\nBraås\n3 rum och kök\nStorlek\n82\nKvm\n8385\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/yJryQctrgGQRVPMgwp9DDC9X/thumbnail?width=660&height=440&version=f-573827",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=6"
   },
   {
     "address": "Nydalavägen 24A",
@@ -1509,7 +1533,7 @@
     "description": "Nydalavägen 24A | Araby, Växjö | 3 rum och kök | Storlek | 79.2 | Kvm | 9224 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Nydalavägen 24A\nAraby, Växjö\n3 rum och kök\nStorlek\n79.2\nKvm\n9224\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/QjPVt8yV4yW9cBxpVkfQQCV6/thumbnail?width=660&height=440&version=f-566031",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=6"
   },
   {
     "address": "Rönnvägen 3 C",
