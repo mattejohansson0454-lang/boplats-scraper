@@ -1,5 +1,17 @@
 [
   {
+    "address": "Klintesvägen 4 K",
+    "area": "Ingelstad",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "Nu",
+    "description": "Klintesvägen 4 K | Ingelstad | 2 rum och kök | Storlek | 61.2 | Kvm | 6154 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i ett lummigt och trivsamt område alldeles intill Torsjöns sydspets. Närmaste granne är affären, pizzerian och samhällets övriga service.",
+    "rawText": "Klintesvägen 4 K\nIngelstad\n2 rum och kök\nStorlek\n61.2\nKvm\n6154\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i ett lummigt och trivsamt område alldeles intill Torsjöns sydspets. Närmaste granne är affären, pizzerian och samhällets övriga service.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/49x9bHfJt7d4qh6FPgFyTqQR/thumbnail?width=660&height=440&version=f-565946",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Tärnvägen 10 A",
     "area": "Lammhult",
     "rooms": "5 rum och kök",
@@ -297,7 +309,7 @@
     "description": "Rönnvägen 3 D | Braås | 3 rum och kök | Storlek | 71 | Kvm | 7212 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
     "rawText": "Rönnvägen 3 D\nBraås\n3 rum och kök\nStorlek\n71\nKvm\n7212\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/YKv6hVkXhJ9hVYwPdqxVCvtX/thumbnail?width=660&height=440&version=f-565738",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Rönnvägen 3 C",
@@ -597,7 +609,7 @@
     "description": "Nydalavägen 8 A | Araby, Växjö | 2 rum och kök | Storlek | 63.8 | Kvm | 7500 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Nydalavägen 8 A\nAraby, Växjö\n2 rum och kök\nStorlek\n63.8\nKvm\n7500\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/4cDkqQYKfdxXJRjTtkfkkwt4/thumbnail?width=660&height=440&version=f-564818",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Ejdervägen 31 A",
@@ -897,7 +909,7 @@
     "description": "Gamla Växjövägen 22 | Ingelstad | 3 rum och kök | Storlek | 71 | Kvm | 7013 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du alldeles intill Kvarndammen. På andra sidan broarna ligger samhällets centrum med all den dagliga service du behöver.",
     "rawText": "Gamla Växjövägen 22\nIngelstad\n3 rum och kök\nStorlek\n71\nKvm\n7013\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du alldeles intill Kvarndammen. På andra sidan broarna ligger samhällets centrum med all den dagliga service du behöver.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/JcMRF8q4Djp88PqDb8pwBRJ4/thumbnail?width=660&height=440&version=f-565944",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Hjalmar Petris väg 2",
@@ -1197,7 +1209,7 @@
     "description": "Hjalmar Petris väg 12B | Araby, Växjö | 3 rum och kök | Storlek | 79.2 | Kvm | 9471 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Hjalmar Petris väg 12B\nAraby, Växjö\n3 rum och kök\nStorlek\n79.2\nKvm\n9471\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/MFXPWrch6qc6v9kfBdfQrfDH/thumbnail?width=660&height=440&version=f-970802",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Herrgårdsgatan 5 A",
