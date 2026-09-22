@@ -888,18 +888,6 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Vallgatan 2",
-    "area": "Braås",
-    "rooms": "1 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "2026-10-01",
-    "description": "Vallgatan 2 | Braås | 1 rum och kök | Storlek | 41 | Kvm | 4378 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor du nästan som i villa med fyra lägenheter i huset.",
-    "rawText": "Vallgatan 2\nBraås\n1 rum och kök\nStorlek\n41\nKvm\n4378\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor du nästan som i villa med fyra lägenheter i huset.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/GWMm476rc8Hrj6mWXtmVMP9h/thumbnail?width=660&height=440&version=f-565737",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
-  },
-  {
     "address": "Billavägen 7 C",
     "area": "Värends Nöbbele",
     "rooms": "3 rum och kök",
@@ -909,6 +897,18 @@
     "description": "Billavägen 7 C | Värends Nöbbele | 3 rum och kök | Storlek | 73.9 | Kvm | 7225 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
     "rawText": "Billavägen 7 C\nVärends Nöbbele\n3 rum och kök\nStorlek\n73.9\nKvm\n7225\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/Bpj8D96HTJ4h74qYqQxfYTVq/thumbnail?width=660&height=440&version=f-565837",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Vallgatan 2",
+    "area": "Braås",
+    "rooms": "1 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-10-01",
+    "description": "Vallgatan 2 | Braås | 1 rum och kök | Storlek | 41 | Kvm | 4378 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor du nästan som i villa med fyra lägenheter i huset.",
+    "rawText": "Vallgatan 2\nBraås\n1 rum och kök\nStorlek\n41\nKvm\n4378\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor du nästan som i villa med fyra lägenheter i huset.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/GWMm476rc8Hrj6mWXtmVMP9h/thumbnail?width=660&height=440&version=f-565737",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
