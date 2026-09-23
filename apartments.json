@@ -1,5 +1,29 @@
 [
   {
+    "address": "Västergatan 21",
+    "area": "Växjö",
+    "rooms": "2 rum och kokvrå",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Västergatan 21 | 2 rum och kokvrå | Storlek | 50.3 | Kvm | 6545 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | På Västergatan 21 ligger Ringsbergsgården som är ett åttavåningshus centralt och vackert beläget med flera lummiga parker omkring. Här är det nära till all service du kan tänka dig och bara ett stenkast bort har du Växjö centrums utbud av butiker, restauranger och nöjesliv. | Fastigheten byggdes 1969 och renoverades 2002. Här kan du bo i 1-2 rum med med kök.",
+    "rawText": "Västergatan 21\n2 rum och kokvrå\nStorlek\n50.3\nKvm\n6545\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nPå Västergatan 21 ligger Ringsbergsgården som är ett åttavåningshus centralt och vackert beläget med flera lummiga parker omkring. Här är det nära till all service du kan tänka dig och bara ett stenkast bort har du Växjö centrums utbud av butiker, restauranger och nöjesliv.\n\nFastigheten byggdes 1969 och renoverades 2002. Här kan du bo i 1-2 rum med med kök.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/hJbTWd9PBHjxd9Wfcjm6JMdD/thumbnail?width=660&height=440&version=f-789002",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "address": "Västergatan 21",
+    "area": "Växjö",
+    "rooms": "2 rum och kokvrå",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Västergatan 21 | 2 rum och kokvrå | Storlek | 50.3 | Kvm | 6545 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | På Västergatan 21 ligger Ringsbergsgården som är ett åttavåningshus centralt och vackert beläget med flera lummiga parker omkring. Här är det nära till all service du kan tänka dig och bara ett stenkast bort har du Växjö centrums utbud av butiker, restauranger och nöjesliv. | Fastigheten byggdes 1969 och renoverades 2002. Här kan du bo i 1-2 rum med med kök.",
+    "rawText": "Västergatan 21\n2 rum och kokvrå\nStorlek\n50.3\nKvm\n6545\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nPå Västergatan 21 ligger Ringsbergsgården som är ett åttavåningshus centralt och vackert beläget med flera lummiga parker omkring. Här är det nära till all service du kan tänka dig och bara ett stenkast bort har du Växjö centrums utbud av butiker, restauranger och nöjesliv.\n\nFastigheten byggdes 1969 och renoverades 2002. Här kan du bo i 1-2 rum med med kök.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/hJbTWd9PBHjxd9Wfcjm6JMdD/thumbnail?width=660&height=440&version=f-789002",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Adelas väg 5",
     "area": "Bredvik, Växjö",
     "rooms": "2 rum och kök",
@@ -297,7 +321,7 @@
     "description": "Nydalavägen 8 A | Araby, Växjö | 2 rum och kök | Storlek | 63.8 | Kvm | 7489 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Nydalavägen 8 A\nAraby, Växjö\n2 rum och kök\nStorlek\n63.8\nKvm\n7489\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/8gkxqVcqcpwPPyTBkVjBX4Vr/thumbnail?width=660&height=440&version=f-915783",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Vintervägen 10 B",
@@ -597,7 +621,7 @@
     "description": "Serafimervägen 3B | Öster, Växjö | 3 rum och kök | Storlek | 76.8 | Kvm | 12233 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Med ett fantastiskt läge precis vid Trummens strand hittar du kvarteret Arken som byggdes 2019. Ljusa, härliga lägenheter i storlekarna 1 till 5 rum och kök. | Badrummen är kaklade och utrustade med tvättmaskin och torktumlare. Hallen har klinker och i köket finns diskmaskin och spis med induktionshäll, allt du behöver för ett bekvämt boende. | Ett boende i kvarteret Arken ger dig närhet till centrum, Växjösjön, simhallen, Linnéuniversitetet och Teleborgsslott. Till matbutik har du gångavstånd och direkt utanför din dörr finns fina promenad- och cykelvägar. | Rökfritt boende. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller för alla boende och för besökande. | Ökad tillgänglighet: innebär bl a hiss, rymliga badrum och låga trösklar.",
     "rawText": "Serafimervägen 3B\nÖster, Växjö\n3 rum och kök\nStorlek\n76.8\nKvm\n12233\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nMed ett fantastiskt läge precis vid Trummens strand hittar du kvarteret Arken som byggdes 2019. Ljusa, härliga lägenheter i storlekarna 1 till 5 rum och kök.\n\nBadrummen är kaklade och utrustade med tvättmaskin och torktumlare. Hallen har klinker och i köket finns diskmaskin och spis med induktionshäll, allt du behöver för ett bekvämt boende.\n\nEtt boende i kvarteret Arken ger dig närhet till centrum, Växjösjön, simhallen, Linnéuniversitetet och Teleborgsslott. Till matbutik har du gångavstånd och direkt utanför din dörr finns fina promenad- och cykelvägar.\n\nRökfritt boende. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller för alla boende och för besökande.\n\nÖkad tillgänglighet: innebär bl a hiss, rymliga badrum och låga trösklar.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/xmqTTqPJ7rRdDdR896qGwR4g/thumbnail?width=660&height=440&version=f-565646",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Rönnvägen 3 D",
@@ -897,7 +921,7 @@
     "description": "Herrgårdsgatan 9 A | Lammhult | 2 rum och kök | Storlek | 64 | Kvm | 6404 | Kr/mån | Nu | Ledig fr.o.m. | Här bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "rawText": "Herrgårdsgatan 9 A\nLammhult\n2 rum och kök\nStorlek\n64\nKvm\n6404\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/HgdWGfBdcBt4gVcRyFKYCKrw/thumbnail?width=660&height=440&version=f-792619",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Nydalavägen 12B",
@@ -1197,7 +1221,7 @@
     "description": "Södertullsvägen 29 A | Braås | 3 rum och kök | Storlek | 71 | Kvm | 7217 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
     "rawText": "Södertullsvägen 29 A\nBraås\n3 rum och kök\nStorlek\n71\nKvm\n7217\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/tbcGgWMVk8CJ8b6PbPTMJRxf/thumbnail?width=660&height=440&version=f-566327",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Hagtornsvägen 5 D",
