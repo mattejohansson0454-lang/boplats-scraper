@@ -1,5 +1,17 @@
 [
   {
+    "address": "Tärnvägen 10 A",
+    "area": "Lammhult",
+    "rooms": "5 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "Nu",
+    "description": "Tärnvägen 10 A | Lammhult | 5 rum och kök | Storlek | 99 | Kvm | 8974 | Kr/mån | Nu | Ledig fr.o.m. | Här bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
+    "rawText": "Tärnvägen 10 A\nLammhult\n5 rum och kök\nStorlek\n99\nKvm\n8974\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/QpYdxvT8CJ7VhXChJgyGx98d/thumbnail?width=660&height=440&version=f-792676",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Västergatan 21",
     "area": "Växjö",
     "rooms": "2 rum och kokvrå",
@@ -309,7 +321,7 @@
     "description": "Kyrksjövägen 32 A | Ingelstad | 2 rum och kök | Storlek | 67 | Kvm | 6727 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett trivsamt område alldeles intill ån. Det är nära till skolan och på andra sidan broarna ligger vårdcentral, tandläkare, apotek, förskola och samhällets övriga service.",
     "rawText": "Kyrksjövägen 32 A\nIngelstad\n2 rum och kök\nStorlek\n67\nKvm\n6727\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett trivsamt område alldeles intill ån. Det är nära till skolan och på andra sidan broarna ligger vårdcentral, tandläkare, apotek, förskola och samhällets övriga service.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/6gHGbqHQVqFv7DjPCX7p9ftW/thumbnail?width=660&height=440&version=f-565948",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Nydalavägen 8 A",
@@ -609,7 +621,7 @@
     "description": "Vintervägen 4 C | Centrum, Växjö | 4 rum och kök | Storlek | 101.7 | Kvm | 9715 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen. | Många av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats. | Vid sidan av Vintervägen 10 finns en kvarterslokal som används till bostadsmöten, hobby- och barnverksamhet. Den kan också hyras för privata fester. | Det är gångavstånd till centrum med tillgång till all service du behöver och bussar passerar området flera gånger i timmen.",
     "rawText": "Vintervägen 4 C\nCentrum, Växjö\n4 rum och kök\nStorlek\n101.7\nKvm\n9715\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nVintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.\n\nMånga av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats.\n\nVid sidan av Vintervägen 10 finns en kvarterslokal som används till bostadsmöten, hobby- och barnverksamhet. Den kan också hyras för privata fester.\n\nDet är gångavstånd till centrum med tillgång till all service du behöver och bussar passerar området flera gånger i timmen.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/gy4Jqhw7xYPqX7rBG4dVxBYC/thumbnail?width=660&height=440&version=f-789009",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Serafimervägen 3B",
@@ -909,7 +921,7 @@
     "description": "Rönnvägen 1 B | Braås | 2 rum och kök | Storlek | 63 | Kvm | 6452 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
     "rawText": "Rönnvägen 1 B\nBraås\n2 rum och kök\nStorlek\n63\nKvm\n6452\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/8yHWwMtDR9Pjt9MKxxhMkd8q/thumbnail?width=660&height=440&version=f-1168354",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Herrgårdsgatan 9 A",
@@ -1209,7 +1221,7 @@
     "description": "Nydalavägen 24 C | Araby, Växjö | 3 rum och kök | Storlek | 79.2 | Kvm | 9216 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Här bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria. | Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana. | Området består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "rawText": "Nydalavägen 24 C\nAraby, Växjö\n3 rum och kök\nStorlek\n79.2\nKvm\n9216\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHär bor du i ett barnvänligt område med stora grönytor och flera lekplatser. Du bor nära livsmedelsbutik och mötesplats Tallgården där det finns ett bibliotek och en kaféteria.\n\nDu kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. Det finns stora grönytor i området samt flera lekplatser och närhet till skolor. Området ligger nära Araby fritidsområde vid Helgasjön samt Araby golfbana.\n\nOmrådet består av fastigheter som byggdes 1966–68 och totalrenoverades 2015-2018. Här kan du bo i 1-4 rum och kök i ett- till trevåningshus.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/7QGvbX7dCgVjVQ7TcWVVQdmb/thumbnail?width=660&height=440&version=f-566031",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Södertullsvägen 29 A",
