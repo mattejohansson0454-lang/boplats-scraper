@@ -840,18 +840,6 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
-    "address": "Billavägen 4 B",
-    "area": "Värends Nöbbele",
-    "rooms": "3 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "2027-01-01",
-    "description": "Billavägen 4 B | Värends Nöbbele | 3 rum och kök | Storlek | 73.9 | Kvm | 7763 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
-    "rawText": "Billavägen 4 B\nVärends Nöbbele\n3 rum och kök\nStorlek\n73.9\nKvm\n7763\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/dMGRqBwhkPjYRTb4YD7M47yT/thumbnail?width=660&height=440&version=f-565844",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
-  },
-  {
     "address": "Movägen 62",
     "area": "Braås",
     "rooms": "2 rum och kök",
@@ -861,6 +849,18 @@
     "description": "Movägen 62 | Braås | 2 rum och kök | Storlek | 69 | Kvm | 7196 | Kr/mån | 2026-10-01 | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "rawText": "Movägen 62\nBraås\n2 rum och kök\nStorlek\n69\nKvm\n7196\nKr/mån\n2026-10-01\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/YdxcTRp6WbMhKJMDbPPMtmQD/thumbnail?width=660&height=440&version=f-573827",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+  },
+  {
+    "address": "Billavägen 4 B",
+    "area": "Värends Nöbbele",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-01-01",
+    "description": "Billavägen 4 B | Värends Nöbbele | 3 rum och kök | Storlek | 73.9 | Kvm | 7763 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
+    "rawText": "Billavägen 4 B\nVärends Nöbbele\n3 rum och kök\nStorlek\n73.9\nKvm\n7763\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/dMGRqBwhkPjYRTb4YD7M47yT/thumbnail?width=660&height=440&version=f-565844",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
