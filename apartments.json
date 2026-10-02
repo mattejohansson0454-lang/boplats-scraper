@@ -1,5 +1,17 @@
 [
   {
+    "address": "Ejdervägen 23 A",
+    "area": "Lammhult",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-01-01",
+    "description": "Ejdervägen 23 A | Lammhult | 2 rum och kök | Storlek | 61 | Kvm | 5658 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
+    "rawText": "Ejdervägen 23 A\nLammhult\n2 rum och kök\nStorlek\n61\nKvm\n5658\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/Bc8FY9pyPF6qpyyJRjgmRwgh/thumbnail?width=660&height=440&version=f-1139648",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Högövägen 30",
     "area": "Bredvik, Växjö",
     "rooms": "3 rum och kök",
@@ -297,7 +309,7 @@
     "description": "Sigfridsvägen 25 | Öster, Växjö | 1 rum och kök | Storlek | 43.4 | Kvm | 7804 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Kvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö. | Rökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "rawText": "Sigfridsvägen 25\nÖster, Växjö\n1 rum och kök\nStorlek\n43.4\nKvm\n7804\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nKvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.\n\nRökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/GrGCmXcjrPKjHPr8DfwRRRQg/thumbnail?width=660&height=440&version=f-790108",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Nydalavägen 8 A",
@@ -609,7 +621,7 @@
     "description": "Serafimervägen 5A | Öster, Växjö | 2 rum och kök | Storlek | 63.1 | Kvm | 10118 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Med ett fantastiskt läge precis vid Trummens strand hittar du kvarteret Arken som byggdes 2019. Ljusa, härliga lägenheter i storlekarna 1 till 5 rum och kök. | Badrummen är kaklade och utrustade med tvättmaskin och torktumlare. Hallen har klinker och i köket finns diskmaskin och spis med induktionshäll, allt du behöver för ett bekvämt boende. | Ett boende i kvarteret Arken ger dig närhet till centrum, Växjösjön, simhallen, Linnéuniversitetet och Teleborgsslott. Till matbutik har du gångavstånd och direkt utanför din dörr finns fina promenad- och cykelvägar. | Rökfritt boende. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller för alla boende och för besökande. | Ökad tillgänglighet: innebär bl a hiss, rymliga badrum och låga trösklar.",
     "rawText": "Serafimervägen 5A\nÖster, Växjö\n2 rum och kök\nStorlek\n63.1\nKvm\n10118\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nMed ett fantastiskt läge precis vid Trummens strand hittar du kvarteret Arken som byggdes 2019. Ljusa, härliga lägenheter i storlekarna 1 till 5 rum och kök.\n\nBadrummen är kaklade och utrustade med tvättmaskin och torktumlare. Hallen har klinker och i köket finns diskmaskin och spis med induktionshäll, allt du behöver för ett bekvämt boende.\n\nEtt boende i kvarteret Arken ger dig närhet till centrum, Växjösjön, simhallen, Linnéuniversitetet och Teleborgsslott. Till matbutik har du gångavstånd och direkt utanför din dörr finns fina promenad- och cykelvägar.\n\nRökfritt boende. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller för alla boende och för besökande.\n\nÖkad tillgänglighet: innebär bl a hiss, rymliga badrum och låga trösklar.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/cWVDk4ryc6MjWVkWGJPtq9JH/thumbnail?width=660&height=440&version=f-565646",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Södertullsvägen 27 C",
@@ -909,7 +921,7 @@
     "description": "Vallmästarevägen 11 | Hovshaga, Växjö | 4 rum och kök | Storlek | 120 | Kvm | 11639 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | På Vallmästarevägen erbjuds attraktiva marklägenheter i 1 och 1½ plan, där varje lägenhet har en egen täppa och entré. Att bo här är så nära eget hus man kan komma. | Husen byggdes 1986-87 med betong/trästomme och gult fasadtegel, 1 och 1 ½ plan. Vidingehem ansvarar för skötseln av gemensamma ytor, medan du som hyresgäst ansvarar för den inhägnade täppan och entrén. | Det är gångavstånd till livsmedelsaffär, vårdcentral, bibliotek och skolor. Du har även nära till naturområden och Helgasjön. På Hovshaga finns det bra bussförbindelser och cykelvägar, så det är enkelt att ta sig till centrum och andra delar av stan. | Inom en radie av 500 meter finns livsmedelsaffär, pizzeria, vårdcentral, bibliotek och skolor. Du har även nära till naturområden och Helgasjön. På Hovshaga finns det bra bussförbindelser och cykelvägar, så det är enkelt att ta sig till centrum och andra delar av stan.",
     "rawText": "Vallmästarevägen 11\nHovshaga, Växjö\n4 rum och kök\nStorlek\n120\nKvm\n11639\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nPå Vallmästarevägen erbjuds attraktiva marklägenheter i 1 och 1½ plan, där varje lägenhet har en egen täppa och entré. Att bo här är så nära eget hus man kan komma.\n\nHusen byggdes 1986-87 med betong/trästomme och gult fasadtegel, 1 och 1 ½ plan. Vidingehem ansvarar för skötseln av gemensamma ytor, medan du som hyresgäst ansvarar för den inhägnade täppan och entrén.\n\nDet är gångavstånd till livsmedelsaffär, vårdcentral, bibliotek och skolor. Du har även nära till naturområden och Helgasjön. På Hovshaga finns det bra bussförbindelser och cykelvägar, så det är enkelt att ta sig till centrum och andra delar av stan.\n\nInom en radie av 500 meter finns livsmedelsaffär, pizzeria, vårdcentral, bibliotek och skolor. Du har även nära till naturområden och Helgasjön. På Hovshaga finns det bra bussförbindelser och cykelvägar, så det är enkelt att ta sig till centrum och andra delar av stan.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/V9QMxd7w8GfTpMDg4KWtGwBD/thumbnail?width=660&height=440&version=f-1080295",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Seminarievägen 37 A",
@@ -1209,7 +1221,7 @@
     "description": "Torstens väg 8 | Rottne | 2 rum och kök | Storlek | 65 | Kvm | 7236 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
     "rawText": "Torstens väg 8\nRottne\n2 rum och kök\nStorlek\n65\nKvm\n7236\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/fMXb6qBCTKBXTVFYRDQWxKTt/thumbnail?width=660&height=440&version=f-566141",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Vallgatan 2",
@@ -1509,7 +1521,7 @@
     "description": "Movägen 62 | Braås | 2 rum och kök | Storlek | 69 | Kvm | 7196 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "rawText": "Movägen 62\nBraås\n2 rum och kök\nStorlek\n69\nKvm\n7196\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/YdxcTRp6WbMhKJMDbPPMtmQD/thumbnail?width=660&height=440&version=f-573827",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=6"
   },
   {
     "address": "Nydalavägen 4 C",
