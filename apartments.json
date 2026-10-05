@@ -1,5 +1,41 @@
 [
   {
+    "address": "Furutåvägen 33B",
+    "area": "Teleborg, Växjö",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Furutåvägen 33B | Teleborg, Växjö | 3 rum och kök | Storlek | 77.5 | Kvm | 7869 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett stort och barnvänligt område med grönytor, lekplats och flera gemensamma uteplatser med sittmöbler. Här bor du i hus som är byggda i två och tre våningar med balkong eller uteplats. | Inom gångavstånd har du Teleborg centrum med mataffär, blomsteraffär, vårdcentral samt busshållplats med täta bussförbindelser. | Fastigheterna byggdes 1973-74. Ventilationssystem och tak är utbytta. | En kvarterslokal finns det här, som används för olika aktiviteter och du kan även hyra den för privata tillställningar.",
+    "rawText": "Furutåvägen 33B\nTeleborg, Växjö\n3 rum och kök\nStorlek\n77.5\nKvm\n7869\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett stort och barnvänligt område med grönytor, lekplats och flera gemensamma uteplatser med sittmöbler. Här bor du i hus som är byggda i två och tre våningar med balkong eller uteplats.\n\nInom gångavstånd har du Teleborg centrum med mataffär, blomsteraffär, vårdcentral samt busshållplats med täta bussförbindelser.\n\nFastigheterna byggdes 1973-74. Ventilationssystem och tak är utbytta.\n\nEn kvarterslokal finns det här, som används för olika aktiviteter och du kan även hyra den för privata tillställningar.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/Cy9ygrpJqg4FW4M6fP8kCVj4/thumbnail?width=660&height=440&version=f-789677",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "address": "Näktergalsgränd 23",
+    "area": "Lammhult",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-01-01",
+    "description": "Näktergalsgränd 23 | Lammhult | 2 rum och kök | Storlek | 61 | Kvm | 5958 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "rawText": "Näktergalsgränd 23\nLammhult\n2 rum och kök\nStorlek\n61\nKvm\n5958\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nOmrådet är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/FfFCCdqBJyQyMkFMPCMWXfmK/thumbnail?width=660&height=440&version=f-792661",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
+    "address": "Näktergalsgränd 23",
+    "area": "Lammhult",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-01-01",
+    "description": "Näktergalsgränd 23 | Lammhult | 2 rum och kök | Storlek | 61 | Kvm | 5958 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Området är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "rawText": "Näktergalsgränd 23\nLammhult\n2 rum och kök\nStorlek\n61\nKvm\n5958\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nOmrådet är beläget i naturskön omgivning, men ändå med närhet till ortens centrum - här finns alla förutsättningar för att trivas. Från fastighetens framsida har man vacker utsikt över samhället och baksidan gränsar till ett skogsparti som inbjuder till rekreation.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/FfFCCdqBJyQyMkFMPCMWXfmK/thumbnail?width=660&height=440&version=f-792661",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Adelas väg 7",
     "area": "Bredvik, Växjö",
     "rooms": "3 rum och kök",
@@ -297,7 +333,7 @@
     "description": "Kyrksjövägen 32 A | Ingelstad | 2 rum och kök | Storlek | 67 | Kvm | 6727 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett trivsamt område alldeles intill ån. Det är nära till skolan och på andra sidan broarna ligger vårdcentral, tandläkare, apotek, förskola och samhällets övriga service.",
     "rawText": "Kyrksjövägen 32 A\nIngelstad\n2 rum och kök\nStorlek\n67\nKvm\n6727\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett trivsamt område alldeles intill ån. Det är nära till skolan och på andra sidan broarna ligger vårdcentral, tandläkare, apotek, förskola och samhällets övriga service.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/6gHGbqHQVqFv7DjPCX7p9ftW/thumbnail?width=660&height=440&version=f-565948",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Verkstadsvägen 1B",
@@ -309,7 +345,7 @@
     "description": "Verkstadsvägen 1B | Rottne | 1 rum och kök | Storlek | 48 | Kvm | 4792 | Kr/mån | 2026-11-01 | Ledig fr.o.m. | Här bor du i ett lummigt bostadsområde med bekvämt gångavstånd till centrum och den dagliga servicen.",
     "rawText": "Verkstadsvägen 1B\nRottne\n1 rum och kök\nStorlek\n48\nKvm\n4792\nKr/mån\n2026-11-01\nLedig fr.o.m.\n\nHär bor du i ett lummigt bostadsområde med bekvämt gångavstånd till centrum och den dagliga servicen.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/qhPrvxfwYyt8TmbMCxgPWqbc/thumbnail?width=660&height=440&version=f-566108",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Nydalavägen 10 A",
@@ -597,7 +633,7 @@
     "description": "Lövsalsgatan 2 | Söder, Växjö | 2 rum och kök | Storlek | 69.4 | Kvm | 9154 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Modernt boende i ett av Växjös populäraste kvarter! Här bor du i ett lugnt och barnvänligt område nära lekpark precis intill Växjösjön. Lägenheterna håller mycket hög standard och parkeringsplats med motorvärmare ingår i hyran. | Området ligger i anslutning till Växjösjön, där du kan ha ett aktivt liv genom att promenera, jogga eller bada under sommaren och umgås med vänner i kaffestugan vid parken Strandbjörket. Du har även nära till Strandbjörkshallen med tennisbanor samt rekreationsområdet Bokhultet vid Bergundasjön. | Här bor du nära Växjö centrum, där du har all service du kan tänka dig och bussar passerar området flera gånger i timmen.",
     "rawText": "Lövsalsgatan 2\nSöder, Växjö\n2 rum och kök\nStorlek\n69.4\nKvm\n9154\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nModernt boende i ett av Växjös populäraste kvarter! Här bor du i ett lugnt och barnvänligt område nära lekpark precis intill Växjösjön. Lägenheterna håller mycket hög standard och parkeringsplats med motorvärmare ingår i hyran.\nOmrådet ligger i anslutning till Växjösjön, där du kan ha ett aktivt liv genom att promenera, jogga eller bada under sommaren och umgås med vänner i kaffestugan vid parken Strandbjörket. Du har även nära till Strandbjörkshallen med tennisbanor samt rekreationsområdet Bokhultet vid Bergundasjön.\n\nHär bor du nära Växjö centrum, där du har all service du kan tänka dig och bussar passerar området flera gånger i timmen.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/WdWVxbdp6p64pf7fyp8PHYH9/thumbnail?width=660&height=440&version=f-837141",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Skogsnäsvägen 2 B",
@@ -609,7 +645,7 @@
     "description": "Skogsnäsvägen 2 B | Araby, Växjö | 2 rum och kök | Storlek | 66.6 | Kvm | 6430 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du ett stenkast från stan, omgiven av natur och generösa grönytor. Kvarteret erbjuder flera lekplatser och har närhet till skolor, vilket gör det till en barnvänlig miljö. | Med endast 10 minuters promenadavstånd till Växjö centrum och ett komplett serviceutbud inom en radie av 1 km, är detta en plats som kombinerar närhet till stadsliv och naturskön omgivning. Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen. | Fastigheterna består av trevåningshus byggda 1963-65. Här finns lägenhetsstorlekar i 1-4 rum och kök. | I området finns kvarterslokaler, som kan användas för olika aktiviteter och du kan även hyra dessa för privata tillställningar.",
     "rawText": "Skogsnäsvägen 2 B\nAraby, Växjö\n2 rum och kök\nStorlek\n66.6\nKvm\n6430\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du ett stenkast från stan, omgiven av natur och generösa grönytor. Kvarteret erbjuder flera lekplatser och har närhet till skolor, vilket gör det till en barnvänlig miljö.\n\nMed endast 10 minuters promenadavstånd till Växjö centrum och ett komplett serviceutbud inom en radie av 1 km, är detta en plats som kombinerar närhet till stadsliv och naturskön omgivning. Du kan enkelt ta dig dit du vill då bussar passerar området flera gånger i timmen.\n\nFastigheterna består av trevåningshus byggda 1963-65. Här finns lägenhetsstorlekar i 1-4 rum och kök.\n\nI området finns kvarterslokaler, som kan användas för olika aktiviteter och du kan även hyra dessa för privata tillställningar.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/xB4xKCyhkpcwPMBWthB4JFBp/thumbnail?width=660&height=440&version=f-792245",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Nydalavägen 66",
