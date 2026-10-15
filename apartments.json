@@ -1,5 +1,17 @@
 [
   {
+    "address": "Billavägen 1 B",
+    "area": "Åryd",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-01-01",
+    "description": "Billavägen 1 B | Åryd | 2 rum och kök | Storlek | 55 | Kvm | 6546 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du mitt i samhället, mellan affären och skolan. På andra sidan vägen ligger idrottsplatsen och en liten bit bort har du Årydsjön och badplatsen.",
+    "rawText": "Billavägen 1 B\nÅryd\n2 rum och kök\nStorlek\n55\nKvm\n6546\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du mitt i samhället, mellan affären och skolan. På andra sidan vägen ligger idrottsplatsen och en liten bit bort har du Årydsjön och badplatsen.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/9FJbkXDvGHWJMqB76qCPXFd7/thumbnail?width=660&height=440&version=f-565810",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Nydalavägen 24 A",
     "area": "Araby, Växjö",
     "rooms": "3 rum och kök",
@@ -297,7 +309,7 @@
     "description": "Almqvists väg 15 N | Värends Nöbbele | 2 rum och kök | Storlek | 66.5 | Kvm | 6578 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor man i ett lugnt och lantligt område. Alla lägenheter ligger i marknivå och har egen uteplats. I en intilliggande kvarterslokal anordnar pensionärsföreningen träffpunktsverksamhet.",
     "rawText": "Almqvists väg 15 N\nVärends Nöbbele\n2 rum och kök\nStorlek\n66.5\nKvm\n6578\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor man i ett lugnt och lantligt område. Alla lägenheter ligger i marknivå och har egen uteplats. I en intilliggande kvarterslokal anordnar pensionärsföreningen träffpunktsverksamhet.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/txBFqkpM9VRdWvjdmV9gKQXm/thumbnail?width=660&height=440&version=f-565833",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Pilgatan 4 C",
@@ -597,7 +609,7 @@
     "description": "Skansvägen 218 D | Rottne | 2 rum och kök | Storlek | 63.1 | Kvm | 9332 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
     "rawText": "Skansvägen 218 D\nRottne\n2 rum och kök\nStorlek\n63.1\nKvm\n9332\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/t88WmC9Gw6Rt98FyBjfkDypr/thumbnail?width=660&height=440&version=f-566136",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Serafimervägen 5A",
@@ -897,7 +909,7 @@
     "description": "Sigfridsvägen 35 | Öster, Växjö | 2 rum och kök | Storlek | 43.7 | Kvm | 8519 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Kvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö. | Rökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "rawText": "Sigfridsvägen 35\nÖster, Växjö\n2 rum och kök\nStorlek\n43.7\nKvm\n8519\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nKvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.\n\nRökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/m4whJTftFfRqBJHxhgYpRhKY/thumbnail?width=660&height=440&version=f-790112",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Ejdervägen 57 B",
@@ -1197,7 +1209,7 @@
     "description": "Rönnvägen 3 C | Braås | 2 rum och kök | Storlek | 63 | Kvm | 6469 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
     "rawText": "Rönnvägen 3 C\nBraås\n2 rum och kök\nStorlek\n63\nKvm\n6469\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/7GkMdHXBXx7MDdVJJb6RygpT/thumbnail?width=660&height=440&version=f-1161148",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Herrgårdsgatan 9 B",
