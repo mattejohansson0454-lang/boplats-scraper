@@ -1,5 +1,17 @@
 [
   {
+    "address": "Högövägen 28",
+    "area": "Bredvik, Växjö",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-01-01",
+    "description": "Högövägen 28 | Bredvik, Växjö | 3 rum och kök | Storlek | 72 | Kvm | 12076 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du i ett modernt och nybyggt kvarter som med mjuka färgskalor smälter in i naturen och framhäver de fina träfasaderna. Kvarteret har en innergård som upplevs som en förlängning av omgivningen. Du bor i en modern stad i staden, inspirerad av Sveriges äldsta trästäder. Genuint, bekvämt och med mycket själ. | Var du än befinner dig i din lägenhet känner du av närheten till naturen. Genom stora fönster och glaspartier, genom den varma ekparketten och när du öppnar dörren till din balkong eller uteplats. | Allt är skapat för att underlätta din vardag – för att du ska kunna njuta mer av livet. Tvättmaskin, torktumlare, lättstädade stora ytor, härligt öppet kök och ljusa stora rum. Och mycket, mycket mer. | Fastigheterna är byggda 2021 och 2022. Här finns tvåor, treor och fyror, sammanlagt 70 lägenheter uppdelade på sju hus.",
+    "rawText": "Högövägen 28\nBredvik, Växjö\n3 rum och kök\nStorlek\n72\nKvm\n12076\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du i ett modernt och nybyggt kvarter som med mjuka färgskalor smälter in i naturen och framhäver de fina träfasaderna. Kvarteret har en innergård som upplevs som en förlängning av omgivningen. Du bor i en modern stad i staden, inspirerad av Sveriges äldsta trästäder. Genuint, bekvämt och med mycket själ.\n\nVar du än befinner dig i din lägenhet känner du av närheten till naturen. Genom stora fönster och glaspartier, genom den varma ekparketten och när du öppnar dörren till din balkong eller uteplats.\n\nAllt är skapat för att underlätta din vardag – för att du ska kunna njuta mer av livet. Tvättmaskin, torktumlare, lättstädade stora ytor, härligt öppet kök och ljusa stora rum. Och mycket, mycket mer.\n\nFastigheterna är byggda 2021 och 2022. Här finns tvåor, treor och fyror, sammanlagt 70 lägenheter uppdelade på sju hus.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/Qbf4kYmWmH7jg8q4h8mMqMQj/thumbnail?width=660&height=440&version=f-564880",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Högövägen 26",
     "area": "Bredvik, Växjö",
     "rooms": "3 rum och kök",
@@ -321,7 +333,7 @@
     "description": "Sigfridsvägen 35 | Öster, Växjö | 2 rum och kök | Storlek | 43.7 | Kvm | 8519 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Kvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö. | Rökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "rawText": "Sigfridsvägen 35\nÖster, Växjö\n2 rum och kök\nStorlek\n43.7\nKvm\n8519\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nKvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.\n\nRökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/RqhGTgyPFGFF9XCD6CdfW8xr/thumbnail?width=660&height=440&version=f-790112",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Nydalavägen 66",
@@ -621,7 +633,7 @@
     "description": "Torstens väg 10 | Rottne | 2 rum och kök | Storlek | 65 | Kvm | 7249 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
     "rawText": "Torstens väg 10\nRottne\n2 rum och kök\nStorlek\n65\nKvm\n7249\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du mitt i Rottne och med all service du behöver på bekvämt promenadavstånd.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/cjrrPqktdRG7tycBdmk4444f/thumbnail?width=660&height=440&version=f-1192466",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Sandviksvägen 36 C",
@@ -921,7 +933,7 @@
     "description": "Herrgårdsgatan 15 B | Lammhult | 2 rum och kök | Storlek | 63 | Kvm | 6105 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "rawText": "Herrgårdsgatan 15 B\nLammhult\n2 rum och kök\nStorlek\n63\nKvm\n6105\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor man ett stenkast från den nybyggda F–9-skolan och med närhet till ortens centrum, samtidigt som naturen ligger alldeles runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/qW9V7WqCBfHyTfwQtQJ7BfJ6/thumbnail?width=660&height=440&version=f-792638",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Nydalavägen 14 B",
@@ -1221,7 +1233,7 @@
     "description": "Sandviksvägen 38 B | Öster, Växjö | 1 rum och kök | Storlek | 42 | Kvm | 5217 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du i ett vackert och barnvänligt område på Öster. Fastigheterna är byggda med betongstomme och röd fasadtegel under åren 1963-64. 2012 genomgick de en totalrenovering. | Här finns stora grönytor och med lekplats för barnen. Du har nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum och cirka 1 km till livsmedelsaffären Rondellen. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
     "rawText": "Sandviksvägen 38 B\nÖster, Växjö\n1 rum och kök\nStorlek\n42\nKvm\n5217\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du i ett vackert och barnvänligt område på Öster. Fastigheterna är byggda med betongstomme och röd fasadtegel under åren 1963-64. 2012 genomgick de en totalrenovering.\n\nHär finns stora grönytor och med lekplats för barnen. Du har nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum och cirka 1 km till livsmedelsaffären Rondellen. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/RvKfQrYKdVdVDJ6QPTgPBQBj/thumbnail?width=660&height=440&version=f-836832",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Rönnvägen 1 B",
