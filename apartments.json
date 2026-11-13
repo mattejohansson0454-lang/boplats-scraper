@@ -1,5 +1,17 @@
 [
   {
+    "address": "Vintervägen 22 A",
+    "area": "Växjö",
+    "rooms": "Centrum, Växjö",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Vintervägen 22 A | Centrum, Växjö | 3 rum och kök | Storlek | 81.2 | Kvm | 7798 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Vintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen. | Många av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats. | Vid sidan av Vintervägen 10 finns en kvarterslokal som används till bostadsmöten, hobby- och barnverksamhet. Den kan också hyras för privata fester. | Det är gångavstånd till centrum med tillgång till all service du behöver och bussar passerar området flera gånger i timmen.",
+    "rawText": "Vintervägen 22 A\nCentrum, Växjö\n3 rum och kök\nStorlek\n81.2\nKvm\n7798\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nVintervägen erbjuder ljusa och rymliga lägenheter byggda kring en gård med mycket grönska. Fastigheterna byggdes 1964-65 och består av 1-5 rum och kök. Kvarteret är byggt i 3-5 våningar och det finns hiss i femvåningshusen.\n\nMånga av lägenheterna har inglasad balkong. I området finns det flera gemensamma uteplatser med sittmöbler, lekplats med sandlåda, gungor och klätterställning samt en tennisplan och spontanidrottsplats.\n\nVid sidan av Vintervägen 10 finns en kvarterslokal som används till bostadsmöten, hobby- och barnverksamhet. Den kan också hyras för privata fester.\n\nDet är gångavstånd till centrum med tillgång till all service du behöver och bussar passerar området flera gånger i timmen.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/qWKGbyRHFyWJ7GmtMGpXFw7G/thumbnail?width=660&height=440&version=f-789008",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Nydalavägen 10 A",
     "area": "Araby, Växjö",
     "rooms": "3 rum och kök",
@@ -297,7 +309,7 @@
     "description": "Skansvägen 216 F | Rottne | 3 rum och kök | Storlek | 73.3 | Kvm | 10617 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
     "rawText": "Skansvägen 216 F\nRottne\n3 rum och kök\nStorlek\n73.3\nKvm\n10617\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/K9jt7xDwpJTH6jCkPXyDjkfj/thumbnail?width=660&height=440&version=f-566136",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Movägen 56",
@@ -609,7 +621,7 @@
     "description": "Kopparvägen 4 | Rottne | 2 rum och kök | Storlek | 65 | Kvm | 6397 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett varierat utbud av lägenheter på kort gångavstånd till centrum.",
     "rawText": "Kopparvägen 4\nRottne\n2 rum och kök\nStorlek\n65\nKvm\n6397\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett varierat utbud av lägenheter på kort gångavstånd till centrum.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/Cr8mGrjHdVBtXfXjDrWfJ9KP/thumbnail?width=660&height=440&version=f-566105",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Ulvaskogsvägen 2 B",
@@ -629,9 +641,9 @@
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "2027-01-01",
-    "description": "Movägen 88 | Braås | 3 rum och kök | Storlek | 82 | Kvm | 8368 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
-    "rawText": "Movägen 88\nBraås\n3 rum och kök\nStorlek\n82\nKvm\n8368\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
+    "availableDate": "2027-03-01",
+    "description": "Movägen 88 | Braås | 3 rum och kök | Storlek | 82 | Kvm | 8368 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
+    "rawText": "Movägen 88\nBraås\n3 rum och kök\nStorlek\n82\nKvm\n8368\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/pPJbhbj9YX9J8bKhFfrmjyQc/thumbnail?width=660&height=440&version=f-573827",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
@@ -933,7 +945,7 @@
     "description": "Pär Lagerkvists väg 11 B | Norr, Växjö | 2 rum och kök | Storlek | 63.2 | Kvm | 6411 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Välkommen till gröna och lummiga Pär Lagerkvists väg på Norr. Här bor du i ett charmigt äldre bostadsområde, med flera lekplatser och grönområden i närheten. | Perfekt läge med bekvämt promenadavstånd till centrum och all service du kan önska dig. Bussar passerar området flera gånger i timmen. | Fastigheterna byggdes 1953-54 och är i tre våningar. Badrummen är renoverade och fönstren utbytta. | Här finns en kvarterslokal, som kan användas för olika aktiviteter och du kan även hyra den för privata tillställningar.",
     "rawText": "Pär Lagerkvists väg 11 B\nNorr, Växjö\n2 rum och kök\nStorlek\n63.2\nKvm\n6411\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nVälkommen till gröna och lummiga Pär Lagerkvists väg på Norr. Här bor du i ett charmigt äldre bostadsområde, med flera lekplatser och grönområden i närheten.\nPerfekt läge med bekvämt promenadavstånd till centrum och all service du kan önska dig. Bussar passerar området flera gånger i timmen.\n\nFastigheterna byggdes 1953-54 och är i tre våningar. Badrummen är renoverade och fönstren utbytta.\n\nHär finns en kvarterslokal, som kan användas för olika aktiviteter och du kan även hyra den för privata tillställningar.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/BkkvKC4FhqWrM7vd9XXpJvQf/thumbnail?width=660&height=440&version=f-565086",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Furutåvägen 43 C",
@@ -1097,9 +1109,9 @@
     "rooms": "3 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Nu",
-    "description": "Movägen 80 | Braås | 3 rum och kök | Storlek | 82 | Kvm | 8379 | Kr/mån | Nu | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
-    "rawText": "Movägen 80\nBraås\n3 rum och kök\nStorlek\n82\nKvm\n8379\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
+    "availableDate": "2027-03-01",
+    "description": "Movägen 80 | Braås | 3 rum och kök | Storlek | 82 | Kvm | 8379 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Här bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
+    "rawText": "Movägen 80\nBraås\n3 rum och kök\nStorlek\n82\nKvm\n8379\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nHär bor du i lägenheter med riktigt bra planlösningar och naturen som granne. 2018 renoverades den yttre miljön och innehåller bland annat multisportarena, utegym och odlingsmöjligheter.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/jQJpPvRVk7xGCwmfWRyk7y7m/thumbnail?width=660&height=440&version=f-1187466",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
@@ -1233,7 +1245,7 @@
     "description": "Ejdervägen 33 B | Lammhult | 2 rum och kök | Storlek | 61 | Kvm | 5771 | Kr/mån | Nu | Ledig fr.o.m. | Här bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "rawText": "Ejdervägen 33 B\nLammhult\n2 rum och kök\nStorlek\n61\nKvm\n5771\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/f4RYyQqPgK8MVMQDKpjKWjmP/thumbnail?width=660&height=440&version=f-1139648",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Nydalavägen 24 B",
