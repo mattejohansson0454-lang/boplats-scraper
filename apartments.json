@@ -336,18 +336,6 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
   },
   {
-    "address": "Gamla Växjövägen 39 B",
-    "area": "Ingelstad",
-    "rooms": "3 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "2026-12-01",
-    "description": "Gamla Växjövägen 39 B | Ingelstad | 3 rum och kök | Storlek | 69.8 | Kvm | 8853 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du mitt i samhället. På andra sidan vägen ligger affär, pizzeria, frisör, restauranger och busshållplats.",
-    "rawText": "Gamla Växjövägen 39 B\nIngelstad\n3 rum och kök\nStorlek\n69.8\nKvm\n8853\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du mitt i samhället. På andra sidan vägen ligger affär, pizzeria, frisör, restauranger och busshållplats.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/B8QPwkbxg6YVwxMPvm9GYVf8/thumbnail?width=660&height=440&version=f-566042",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
-  },
-  {
     "address": "Ljungsåkravägen 6 D",
     "area": "Vederslöv",
     "rooms": "2 rum och kök",
@@ -357,6 +345,18 @@
     "description": "Ljungsåkravägen 6 D | Vederslöv | 2 rum och kök | Storlek | 66.4 | Kvm | 6522 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Här bor man i trivsamma marklägenheter i nära anslutning till Kinnevaldsgårdens vårdboende och service.",
     "rawText": "Ljungsåkravägen 6 D\nVederslöv\n2 rum och kök\nStorlek\n66.4\nKvm\n6522\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nHär bor man i trivsamma marklägenheter i nära anslutning till Kinnevaldsgårdens vårdboende och service.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/DWgKTVjM7H9RY6DDMtXYmfcb/thumbnail?width=660&height=440&version=f-565864",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Gamla Växjövägen 39 B",
+    "area": "Ingelstad",
+    "rooms": "3 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Gamla Växjövägen 39 B | Ingelstad | 3 rum och kök | Storlek | 69.8 | Kvm | 8853 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du mitt i samhället. På andra sidan vägen ligger affär, pizzeria, frisör, restauranger och busshållplats.",
+    "rawText": "Gamla Växjövägen 39 B\nIngelstad\n3 rum och kök\nStorlek\n69.8\nKvm\n8853\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du mitt i samhället. På andra sidan vägen ligger affär, pizzeria, frisör, restauranger och busshållplats.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/B8QPwkbxg6YVwxMPvm9GYVf8/thumbnail?width=660&height=440&version=f-566042",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
