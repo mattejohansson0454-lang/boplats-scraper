@@ -1,5 +1,17 @@
 [
   {
+    "address": "Gullebovägen 2 C",
+    "area": "Rottne",
+    "rooms": "4 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-02-01",
+    "description": "Gullebovägen 2 C | Rottne | 4 rum och kök | Storlek | 85.5 | Kvm | 10013 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Här bor du med utpräglad tillgänglighet och allt på bekvämt avstånd. En viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år.",
+    "rawText": "Gullebovägen 2 C\nRottne\n4 rum och kök\nStorlek\n85.5\nKvm\n10013\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nHär bor du med utpräglad tillgänglighet och allt på bekvämt avstånd. En viss andel av lägenheterna erbjuds i första hand som seniorbostäder till personer som har fyllt 70 år.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/RC6pTCVdFRKMKWQtMMh7pBMf/thumbnail?width=660&height=440&version=f-566232",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Södertullsvägen 27 A",
     "area": "Braås",
     "rooms": "3 rum och kök",
@@ -297,7 +309,7 @@
     "description": "Frövägen 14 | Öster, Växjö | 2 rum och kök | Storlek | 60 | Kvm | 7937 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Frövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö. | Husen är byggda under åren 1963-64 och hela området totalrenoveras under 2021-2025. Renoveringen innebär att tillgång till grönytor och lekplatser kan vara begränsade under denna period.",
     "rawText": "Frövägen 14\nÖster, Växjö\n2 rum och kök\nStorlek\n60\nKvm\n7937\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nFrövägen ligger lugnt och vackert intill stora grönytor och med lekplats för barnen. Här har du nära till rekreationsområdet Fyllerydsskogen, cirka 3 km till Växjö centrum. Med stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.\n\nHusen är byggda under åren 1963-64 och hela området totalrenoveras under 2021-2025. Renoveringen innebär att tillgång till grönytor och lekplatser kan vara begränsade under denna period.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/xppVChRKGVDGfBhgxTfY9WQ6/thumbnail?width=660&height=440&version=f-837201",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Nydalavägen 14 A",
@@ -633,7 +645,7 @@
     "description": "Skansvägen 218 F3 | Rottne | 2 rum och kök | Storlek | 63.1 | Kvm | 9332 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Här bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
     "rawText": "Skansvägen 218 F3\nRottne\n2 rum och kök\nStorlek\n63.1\nKvm\n9332\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nHär bor du på Rosendalsområdet, mitt i samhället men ändå som i en oas, avgränsad av en cykelväg, lummig växtlighet och stillsam villabebyggelse. Mitt på området finns ett utegym och precis utanför den norra delen finns tennis- och padelbanor samt fotbollsplaner. Och söder om finns centrum med all den dagliga servicen.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/wPbTrCxYxt76BCxx9mkR6mcP/thumbnail?width=660&height=440&version=f-566136",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Ejdervägen 23 B",
@@ -933,7 +945,7 @@
     "description": "Billavägen 9 C | Åryd | 2 rum och kök | Storlek | 57 | Kvm | 5973 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du mitt i samhället, granne med skola, förskola och bibliotek och med medelbar närhet till idrottsplatsen, affären och badplatsen i Årydsjön.",
     "rawText": "Billavägen 9 C\nÅryd\n2 rum och kök\nStorlek\n57\nKvm\n5973\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du mitt i samhället, granne med skola, förskola och bibliotek och med medelbar närhet till idrottsplatsen, affären och badplatsen i Årydsjön.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/YRvVHhmvTKVhYqywTVjgwd6c/thumbnail?width=660&height=440&version=f-565771",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Högövägen 24",
@@ -1233,7 +1245,7 @@
     "description": "Gamla Växjövägen 13 C | Ingelstad | 1 rum och kök | Storlek | 33.2 | Kvm | 3084 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i marklägenheter alldeles intill ån, med fina gräsytor och närhet till såväl centrum som till skolan.",
     "rawText": "Gamla Växjövägen 13 C\nIngelstad\n1 rum och kök\nStorlek\n33.2\nKvm\n3084\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i marklägenheter alldeles intill ån, med fina gräsytor och närhet till såväl centrum som till skolan.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/hGCqQWFbhbgyFmqWQc6PyHyJ/thumbnail?width=660&height=440&version=f-565954",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Billavägen 7 C",
@@ -1545,7 +1557,7 @@
     "description": "Ljungfällevägen 4 | Teleborg, Växjö | 3 rum och kök | Storlek | 78.9 | Kvm | 11320 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Välkommen till Ljungfällevägen 2 och 4, ett grönt och barnvänligt område med lekplatser och stora grönytor. Du har nära till naturen och i närheten har du Teleborgs sporthall, elljusspår samt en spontan idrottsplats för barn och ungdomar. Du har gångavstånd till Teleborgs slott, Linnéuniversitetet och Bergundasjön samt bra bussförbindelser till övriga bostadsområden inom Växjö tätort. | Här bor du i ett av två höghus på sex våningar med hiss, byggda 2013–14.",
     "rawText": "Ljungfällevägen 4\nTeleborg, Växjö\n3 rum och kök\nStorlek\n78.9\nKvm\n11320\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nVälkommen till Ljungfällevägen 2 och 4, ett grönt och barnvänligt område med lekplatser och stora grönytor. Du har nära till naturen och i närheten har du Teleborgs sporthall, elljusspår samt en spontan idrottsplats för barn och ungdomar. Du har gångavstånd till Teleborgs slott, Linnéuniversitetet och Bergundasjön samt bra bussförbindelser till övriga bostadsområden inom Växjö tätort.\n\nHär bor du i ett av två höghus på sex våningar med hiss, byggda 2013–14.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/dVcK44XHmR9kHjvVhgKv6bTM/thumbnail?width=660&height=440&version=f-565432",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=6"
   },
   {
     "address": "Serafimervägen 5B",
