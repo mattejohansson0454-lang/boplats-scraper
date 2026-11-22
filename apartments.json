@@ -1,5 +1,17 @@
 [
   {
+    "address": "Skansvägen 60",
+    "area": "Rottne",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2026-12-01",
+    "description": "Skansvägen 60 | Rottne | 2 rum och kök | Storlek | 63 | Kvm | 6762 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor du i ett välplanerat bostadsområde, omgivet av trivsamma villakvarter och med närhet till ortens service.",
+    "rawText": "Skansvägen 60\nRottne\n2 rum och kök\nStorlek\n63\nKvm\n6762\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor du i ett välplanerat bostadsområde, omgivet av trivsamma villakvarter och med närhet till ortens service.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/HpYWRBXgMQWpR4jhx8Y9prr4/thumbnail?width=660&height=440&version=f-566144",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+  },
+  {
     "address": "Löpanäsvägen 10",
     "area": "Rottne",
     "rooms": "1 rum och kök",
@@ -297,7 +309,7 @@
     "description": "Tärnvägen 4 B | Lammhult | 3 rum och kök | Storlek | 77 | Kvm | 7379 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "rawText": "Tärnvägen 4 B\nLammhult\n3 rum och kök\nStorlek\n77\nKvm\n7379\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/rWkJr4KFgxJmHXmBWKfmb4d8/thumbnail?width=660&height=440&version=f-792667",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
     "address": "Ejdervägen 23 A",
@@ -597,7 +609,7 @@
     "description": "Sigfridsvägen 35 | Öster, Växjö | 2 rum och kök | Storlek | 43.7 | Kvm | 8519 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Kvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö. | Rökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "rawText": "Sigfridsvägen 35\nÖster, Växjö\n2 rum och kök\nStorlek\n43.7\nKvm\n8519\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nKvarteret ligger vackert nära naturen på Sigfridsområdet. Området består av fastigheter byggda 2016-17. Till Linnéuniversitetet och Teleborgs centrum är det cirka 1,5 km. Till centrum med all service man kan önska sig är det cirka 1 km. Tack vare fina cykelvägar och stadsbussen som går med jämna intervaller tar du dig enkel till andra delar av Växjö.\n\nRökfritt boende på Sigfridsvägen 21-37. Det innebär att det inte är tillåtet att röka i lägenheter, på balkonger/uteplatser samt i närliggande utemiljö. Detta gäller boende samt även för besökande till fastigheten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/m4whJTftFfRqBJHxhgYpRhKY/thumbnail?width=660&height=440&version=f-790112",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
     "address": "Högövägen 24",
@@ -933,7 +945,7 @@
     "description": "Framnäsvägen 16 D | Norr, Växjö | 4 rum och kök | Storlek | 90.5 | Kvm | 9727 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Framnäsvägen är ett attraktivt bostadsområde med vacker utemiljö och hus byggda i tre våningar. Bostadsområdet är barnvänligt med mycket grönområden och flera lekplatser. | Husen byggdes 1956-59 och en helrenovering genomfördes 1998. | Här erbjuder vi ett varierat boende med lägenhetsstorlekar mellan 1-5 rum och kök. Kvarteret består av totalt 110 lägenheter. | Med cykel tar det ca 5 minuter till centrum och närmaste friluftsområde är Fyllerydsskogen, där du har golfbana och joggingrundor strax intill.",
     "rawText": "Framnäsvägen 16 D\nNorr, Växjö\n4 rum och kök\nStorlek\n90.5\nKvm\n9727\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nFramnäsvägen är ett attraktivt bostadsområde med vacker utemiljö och hus byggda i tre våningar. Bostadsområdet är barnvänligt med mycket grönområden och flera lekplatser.\n\nHusen byggdes 1956-59 och en helrenovering genomfördes 1998.\n\nHär erbjuder vi ett varierat boende med lägenhetsstorlekar mellan 1-5 rum och kök. Kvarteret består av totalt 110 lägenheter.\n\nMed cykel tar det ca 5 minuter till centrum och närmaste friluftsområde är Fyllerydsskogen, där du har golfbana och joggingrundor strax intill.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/mJKgGbF8fkYdqWdK8BPHVQHq/thumbnail?width=660&height=440&version=f-565091",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
   },
   {
     "address": "Ljungfällevägen 68",
@@ -1233,7 +1245,7 @@
     "description": "Ejdervägen 33 B | Lammhult | 2 rum och kök | Storlek | 61 | Kvm | 5771 | Kr/mån | 2027-03-01 | Ledig fr.o.m. | Här bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "rawText": "Ejdervägen 33 B\nLammhult\n2 rum och kök\nStorlek\n61\nKvm\n5771\nKr/mån\n2027-03-01\nLedig fr.o.m.\n\nHär bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/f4RYyQqPgK8MVMQDKpjKWjmP/thumbnail?width=660&height=440&version=f-1139648",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=4"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
   },
   {
     "address": "Hjalmar Petris väg 2",
@@ -1545,7 +1557,7 @@
     "description": "Tärnvägen 10 D | Lammhult | 5 rum och kök | Storlek | 99 | Kvm | 9126 | Kr/mån | 2026-12-01 | Ledig fr.o.m. | Här bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "rawText": "Tärnvägen 10 D\nLammhult\n5 rum och kök\nStorlek\n99\nKvm\n9126\nKr/mån\n2026-12-01\nLedig fr.o.m.\n\nHär bor man naturnära alldeles intill sjön – i samhället men ändå med känsla av landet med den småländska naturen runt knuten.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/ybHvHdTjRT9qCWTGTrX6WmPD/thumbnail?width=660&height=440&version=f-792676",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=5"
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=6"
   },
   {
     "address": "Herrgårdsgatan 5 A",
