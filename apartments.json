@@ -564,18 +564,6 @@
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
   },
   {
-    "address": "Södertullsvägen 29 B",
-    "area": "Braås",
-    "rooms": "2 rum och kök",
-    "sqm": "Kvm",
-    "rent": "Kr/mån",
-    "availableDate": "2027-01-01",
-    "description": "Södertullsvägen 29 B | Braås | 2 rum och kök | Storlek | 63 | Kvm | 6495 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
-    "rawText": "Södertullsvägen 29 B\nBraås\n2 rum och kök\nStorlek\n63\nKvm\n6495\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
-    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/JbRPhfxJmBtmJrHJB7j6cHGf/thumbnail?width=660&height=440&version=f-1193095",
-    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
-  },
-  {
     "address": "Movägen 62",
     "area": "Braås",
     "rooms": "2 rum och kök",
@@ -609,6 +597,18 @@
     "description": "Billavägen 4 B | Värends Nöbbele | 3 rum och kök | Storlek | 73.9 | Kvm | 7763 | Kr/mån | 2027-01-01 | Ledig fr.o.m. | Här bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
     "rawText": "Billavägen 4 B\nVärends Nöbbele\n3 rum och kök\nStorlek\n73.9\nKvm\n7763\nKr/mån\n2027-01-01\nLedig fr.o.m.\n\nHär bor du i marklägenheter i ett trivsamt villakvarter, med närhet till skolan och förskolan.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/jmrDQvHCwvXDyb7wdMgyrRCt/thumbnail?width=660&height=440&version=f-565844",
+    "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=2"
+  },
+  {
+    "address": "Södertullsvägen 29 B",
+    "area": "Braås",
+    "rooms": "2 rum och kök",
+    "sqm": "Kvm",
+    "rent": "Kr/mån",
+    "availableDate": "2027-02-01",
+    "description": "Södertullsvägen 29 B | Braås | 2 rum och kök | Storlek | 63 | Kvm | 6495 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
+    "rawText": "Södertullsvägen 29 B\nBraås\n2 rum och kök\nStorlek\n63\nKvm\n6495\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
+    "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/JbRPhfxJmBtmJrHJB7j6cHGf/thumbnail?width=660&height=440&version=f-1193095",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=3"
   },
   {
@@ -1577,9 +1577,9 @@
     "rooms": "2 rum och kök",
     "sqm": "Kvm",
     "rent": "Kr/mån",
-    "availableDate": "Nu",
-    "description": "Södertullsvägen 27 C | Braås | 2 rum och kök | Storlek | 62 | Kvm | 6406 | Kr/mån | Nu | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
-    "rawText": "Södertullsvägen 27 C\nBraås\n2 rum och kök\nStorlek\n62\nKvm\n6406\nKr/mån\nNu\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
+    "availableDate": "2027-02-01",
+    "description": "Södertullsvägen 27 C | Braås | 2 rum och kök | Storlek | 62 | Kvm | 6406 | Kr/mån | 2027-02-01 | Ledig fr.o.m. | Här bor man i tvåplanshus med stor och barnvänlig innergård.",
+    "rawText": "Södertullsvägen 27 C\nBraås\n2 rum och kök\nStorlek\n62\nKvm\n6406\nKr/mån\n2027-02-01\nLedig fr.o.m.\n\nHär bor man i tvåplanshus med stor och barnvänlig innergård.",
     "imageUrl": "https://vidingehem-fastighet.momentum.se/Prod/Vidingehem/PmApi/v2/market/objects/MxmjqWKTFwV7FQWWpxCbDpYG/thumbnail?width=660&height=440&version=f-1192992",
     "boplatsUrl": "https://minasidor.vidingehem.se/market/residential?pageSize=25&page=6"
   },
